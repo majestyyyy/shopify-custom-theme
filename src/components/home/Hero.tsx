@@ -20,7 +20,7 @@ export default function Hero() {
 
         {/* Subtitle */}
         <p className="mx-auto max-w-2xl text-base sm:text-lg text-zinc-600 leading-relaxed">
-          Premium heavyweight 400GSM fleece hoodies, varsity game-day jerseys, box-fit cotton tees, embroidered caps, and woven lanyards crafted for students, athletes, and alumni.
+          Premium heavyweight 400GSM fleece Sweatshirts, varsity game-day jerseys, box-fit cotton tees, embroidered caps, and woven lanyards crafted for students, athletes, and alumni.
         </p>
 
         {/* CTA Buttons */}
@@ -38,7 +38,7 @@ export default function Hero() {
             className="inline-flex items-center gap-2 rounded-xl border-2 border-zinc-900 bg-transparent px-8 py-4 text-sm font-bold text-zinc-950 hover:bg-zinc-100 active:scale-[0.98] transition"
           >
             <Shirt className="h-4 w-4 text-black" />
-            <span>Explore Hoodies</span>
+            <span>Explore Sweatshirts</span>
           </Link>
         </div>
 

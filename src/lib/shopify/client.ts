@@ -156,11 +156,11 @@ export async function getCollectionProducts(handle: string, first: number = 20):
   if (isUni) {
     mockProducts = UNIVERSITY_PRODUCTS.filter((p) =>
       p.tags?.some((t) => t.toUpperCase() === upperHandle) ||
-      p.title.toUpperCase().includes(upperHandle)
+      p.handle.toLowerCase().startsWith(`${lowerHandle}-`)
     );
   } else if (lowerHandle === "shirt" || lowerHandle === "tshirts") {
     mockProducts = UNIVERSITY_PRODUCTS.filter((p) => p.tags?.includes("Shirt") || p.tags?.includes("T-Shirt"));
-  } else if (lowerHandle === "hoodie" || lowerHandle === "hoodies-sweatshirts") {
+  } else if (lowerHandle === "hoodie" || lowerHandle === "sweatshirts") {
     mockProducts = UNIVERSITY_PRODUCTS.filter((p) => p.tags?.includes("Hoodie") || p.tags?.includes("Sweatshirt"));
   } else if (lowerHandle === "cap" || lowerHandle === "accessories") {
     mockProducts = UNIVERSITY_PRODUCTS.filter((p) => p.tags?.includes("Cap") || p.tags?.includes("Accessories"));

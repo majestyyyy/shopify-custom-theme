@@ -65,7 +65,7 @@ export default function CustomOrdersBanner() {
               />
               <div className="grid grid-cols-2 gap-2">
                 <select className="rounded-xl border border-zinc-800 bg-zinc-900 px-3 py-2.5 text-xs text-zinc-300 focus:border-white focus:outline-none">
-                  <option>Hoodies & Fleece</option>
+                  <option>Sweatshirts & Fleece</option>
                   <option>Game-Day Jerseys</option>
                   <option>T-Shirts</option>
                   <option>Caps & Lanyards</option>

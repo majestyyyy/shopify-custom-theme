@@ -31,7 +31,7 @@ export default function Footer() {
               </div>
             </Link>
             <p className="text-xs text-zinc-400 leading-relaxed max-w-sm">
-              Printing Avenue PH is your trusted university apparel partner providing official and custom heavyweight hoodies, varsity jerseys, graphic tees, caps, and lanyards for collegiate pride.
+              Printing Avenue PH is your trusted university apparel partner providing official and custom heavyweight Sweatshirts, varsity jerseys, graphic tees, caps, and lanyards for collegiate pride.
             </p>
           </div>
 
@@ -55,7 +55,7 @@ export default function Footer() {
             <h4 className="text-xs font-bold uppercase tracking-wider text-white">Categories</h4>
             <ul className="mt-4 space-y-2 text-xs">
               <li><Link href="/collections/shirt" className="hover:text-white transition">Shirts</Link></li>
-              <li><Link href="/collections/hoodie" className="hover:text-white transition">Hoodies</Link></li>
+              <li><Link href="/collections/hoodie" className="hover:text-white transition">Sweatshirts</Link></li>
               <li><Link href="/collections/cap" className="hover:text-white transition">Caps</Link></li>
               <li><Link href="/collections/jersey" className="hover:text-white transition">Jerseys</Link></li>
               <li><Link href="/collections/lanyard" className="hover:text-white transition">Lanyards</Link></li>

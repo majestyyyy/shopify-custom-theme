@@ -7,7 +7,7 @@ import CartDrawer from "@/components/cart/CartDrawer";
 
 export const metadata: Metadata = {
   title: "Printing Avenue PH | Official University Merchandise & Custom Apparel",
-  description: "Shop official and custom collegiate merchandise: Heavyweight Hoodies, Game-Day Jerseys, T-Shirts, Caps, and Lanyards for UE, FEU, UST, DLSU, ADU, ADMU, UP, NU.",
+  description: "Shop official and custom collegiate merchandise: Heavyweight Sweatshirts, Game-Day Jerseys, T-Shirts, Caps, and Lanyards for UE, FEU, UST, DLSU, ADU, ADMU, UP, NU.",
 };
 
 export default function RootLayout({

@@ -8,8 +8,8 @@ interface UniversityItem {
   name: string;
   handle: string;
   colors: string;
-  image: string;
   tagline: string;
+  established?: string;
 }
 
 const UNIVERSITY_EDITORIAL: UniversityItem[] = [
@@ -19,7 +19,7 @@ const UNIVERSITY_EDITORIAL: UniversityItem[] = [
     handle: "up",
     colors: "Maroon & Forest Green",
     tagline: "Honor and Excellence",
-    image: "https://images.unsplash.com/photo-1556905055-8f358a7a47b2?q=80&w=800&auto=format&fit=crop",
+    established: "1908",
   },
   {
     code: "UST",
@@ -27,7 +27,7 @@ const UNIVERSITY_EDITORIAL: UniversityItem[] = [
     handle: "ust",
     colors: "Gold, Black & White",
     tagline: "Veritas in Caritate",
-    image: "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?q=80&w=800&auto=format&fit=crop",
+    established: "1611",
   },
   {
     code: "DLSU",
@@ -35,7 +35,7 @@ const UNIVERSITY_EDITORIAL: UniversityItem[] = [
     handle: "dlsu",
     colors: "Green & White",
     tagline: "Religio, Mores, Cultura",
-    image: "https://images.unsplash.com/photo-1577223625816-7546f13df25d?q=80&w=800&auto=format&fit=crop",
+    established: "1911",
   },
   {
     code: "ADMU",
@@ -43,7 +43,7 @@ const UNIVERSITY_EDITORIAL: UniversityItem[] = [
     handle: "admu",
     colors: "Royal Blue & White",
     tagline: "Lux in Domino",
-    image: "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?q=80&w=800&auto=format&fit=crop",
+    established: "1859",
   },
   {
     code: "FEU",
@@ -51,7 +51,7 @@ const UNIVERSITY_EDITORIAL: UniversityItem[] = [
     handle: "feu",
     colors: "Green & Gold",
     tagline: "Fortitude, Excellence, Uprightness",
-    image: "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?q=80&w=800&auto=format&fit=crop",
+    established: "1928",
   },
   {
     code: "UE",
@@ -59,7 +59,7 @@ const UNIVERSITY_EDITORIAL: UniversityItem[] = [
     handle: "ue",
     colors: "Red & White",
     tagline: "Tomorrow Begins in the East",
-    image: "https://images.unsplash.com/photo-1519766304817-4f37bda74a29?q=80&w=800&auto=format&fit=crop",
+    established: "1946",
   },
   {
     code: "ADU",
@@ -67,7 +67,7 @@ const UNIVERSITY_EDITORIAL: UniversityItem[] = [
     handle: "adu",
     colors: "Blue & White",
     tagline: "Veritas in Caritate",
-    image: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=800&auto=format&fit=crop",
+    established: "1932",
   },
   {
     code: "NU",
@@ -75,30 +75,26 @@ const UNIVERSITY_EDITORIAL: UniversityItem[] = [
     handle: "nu",
     colors: "Navy Blue & Gold",
     tagline: "Education that Works",
-    image: "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop",
+    established: "1900",
   },
 ];
 
 export default function UniversityEditorial() {
   return (
-    <section className="py-16 bg-black text-white border-t border-b border-zinc-800 my-8">
+    <section className="py-16 bg-white text-zinc-950 border-t border-zinc-200">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6">
           <div className="space-y-2">
-            <div className="inline-flex items-center gap-2 rounded-full border border-zinc-800 bg-zinc-900 px-3.5 py-1 text-xs font-bold uppercase tracking-widest text-zinc-300">
-              <GraduationCap className="h-3.5 w-3.5 text-white" />
-              <span>COLLECTION EDITORIAL</span>
-            </div>
-            <h2 className="text-3xl sm:text-5xl font-extrabold tracking-tight uppercase text-white">
+            <h2 className="text-3xl sm:text-5xl font-extrabold tracking-tight uppercase text-zinc-950">
               Shop by University
             </h2>
-            <p className="text-sm sm:text-base text-zinc-400 max-w-2xl leading-relaxed">
-              Explore dedicated university collections featuring heavyweight fleece hoodies, varsity game-day jerseys, everyday graphic tees, caps, and lanyards.
+            <p className="text-sm sm:text-base text-zinc-600 max-w-2xl leading-relaxed">
+              Explore dedicated university lookbooks featuring heavyweight fleece hoodies, varsity game-day jerseys, everyday graphic tees, caps, and lanyards.
             </p>
           </div>
 
-          <div className="text-xs font-semibold text-zinc-400 uppercase tracking-wider">
+          <div className="text-xs font-semibold text-zinc-500 uppercase tracking-wider">
             8 Collegiate Editions Available
           </div>
         </div>
@@ -109,32 +105,42 @@ export default function UniversityEditorial() {
             <Link
               key={uni.code}
               href={`/collections/${uni.handle}`}
-              className="group relative flex flex-col justify-between overflow-hidden rounded-3xl bg-zinc-950 aspect-[3/4] p-6 text-white border border-zinc-800 hover:border-zinc-400 transition-all duration-500 hover:shadow-2xl"
+              className="group relative flex flex-col justify-between overflow-hidden rounded-none bg-zinc-950 aspect-[3/4] p-6 text-white border border-zinc-300 hover:border-black transition-all duration-500 hover:shadow-2xl select-none"
             >
-              {/* Background Image Placeholder with Zoom Effect */}
-              <Image
-                src={uni.image}
-                alt={uni.name}
-                fill
-                sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw"
-                className="object-cover transition-transform duration-700 ease-out group-hover:scale-110 opacity-50 group-hover:opacity-70"
-              />
+              {/* Background Architectural Vector Placeholder */}
+              <div className="absolute inset-0 bg-gradient-to-b from-zinc-900 via-zinc-950 to-black pointer-events-none" />
+              
+              {/* Subtle Grid Lines & Architectural Lines */}
+              <div className="absolute inset-0 opacity-15 bg-[radial-gradient(#ffffff_1px,transparent_1px)] [background-size:16px_16px] group-hover:opacity-25 transition-opacity duration-500" />
+              
+              {/* Big Watermark Code in Background Center/Right */}
+              <div className="absolute right-[-10px] top-1/2 -translate-y-1/2 font-black text-[120px] leading-none text-white/[0.04] group-hover:text-white/[0.08] transition-colors duration-500 pointer-events-none tracking-tighter select-none">
+                {uni.code}
+              </div>
 
-              {/* Gradient Darkness Overlay */}
-              <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-black/20" />
+              {/* Top Row: Graduation Icon & Arrow Action */}
+              <div className="relative z-10 flex items-center justify-between">
+                <span className="flex h-9 w-9 items-center justify-center rounded-none bg-white/5 border border-zinc-800 text-zinc-400 backdrop-blur-sm group-hover:text-white group-hover:border-zinc-600 transition">
+                  <GraduationCap className="h-4 w-4" />
+                </span>
 
-              {/* Top Right: Arrow Action Button */}
-              <div className="relative z-10 flex justify-end">
-                <span className="flex h-10 w-10 items-center justify-center rounded-full bg-black/60 border border-zinc-700 text-white backdrop-blur-md transition-all duration-300 group-hover:bg-white group-hover:text-black group-hover:border-white group-hover:scale-110">
-                  <ArrowUpRight className="h-5 w-5 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
+                <span className="flex h-9 w-9 items-center justify-center rounded-none bg-black/60 border border-zinc-700 text-white backdrop-blur-md transition-all duration-300 group-hover:bg-white group-hover:text-black group-hover:border-white group-hover:scale-105">
+                  <ArrowUpRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
                 </span>
               </div>
 
               {/* Lower Left Corner: University Name & Info */}
-              <div className="relative z-10 text-left space-y-1 mt-auto">
-                <span className="inline-block text-[11px] font-bold uppercase tracking-widest text-zinc-400">
-                  {uni.colors}
-                </span>
+              <div className="relative z-10 text-left space-y-1.5 mt-auto">
+                <div className="flex items-center gap-2">
+                  <span className="inline-block text-[10px] font-bold uppercase tracking-widest text-zinc-400 border border-zinc-800 px-2 py-0.5 bg-zinc-900/80">
+                    {uni.colors}
+                  </span>
+                  {uni.established && (
+                    <span className="text-[10px] font-medium text-zinc-500">
+                      EST. {uni.established}
+                    </span>
+                  )}
+                </div>
 
                 {/* Big University Code */}
                 <h3 className="text-3xl sm:text-4xl font-black tracking-tight text-white group-hover:text-zinc-100 transition-colors uppercase leading-none">
@@ -142,12 +148,12 @@ export default function UniversityEditorial() {
                 </h3>
 
                 {/* Full University Name */}
-                <p className="text-sm font-bold text-zinc-200 line-clamp-1 leading-snug">
+                <p className="text-sm font-bold text-zinc-300 line-clamp-1 leading-snug">
                   {uni.name}
                 </p>
 
                 {/* Tagline / Motto */}
-                <p className="text-[11px] text-zinc-400 italic pt-0.5 line-clamp-1">
+                <p className="text-[11px] text-zinc-400 italic line-clamp-1">
                   &ldquo;{uni.tagline}&rdquo;
                 </p>
               </div>

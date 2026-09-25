@@ -23,7 +23,7 @@ export default function AboutPage() {
             About <span className="text-white underline decoration-zinc-500">Printing Avenue PH</span>
           </h1>
           <p className="text-base sm:text-lg text-zinc-400 max-w-2xl mx-auto leading-relaxed">
-            Your premier destination for high-quality collegiate merchandise, custom university apparel, game-day jerseys, heavyweight hoodies, and student organization merchandise.
+            Your premier destination for high-quality collegiate merchandise, custom university apparel, game-day jerseys, heavyweight Sweatshirts, and student organization merchandise.
           </p>
         </div>
       </section>
@@ -43,7 +43,7 @@ export default function AboutPage() {
               At <strong>Printing Avenue PH</strong>, we believe university pride should be worn with comfort and durability. We specialize in producing official and custom merchandise for universities across the Philippines, including <strong>UE, FEU, UST, DLSU, ADU, ADMU, UP, NU</strong>, and more.
             </p>
             <p className="text-zinc-600 leading-relaxed text-sm sm:text-base">
-              From heavyweight 400GSM fleece hoodies and breathable athletic jerseys to screen-printed graphic tees and customized student organization lanyards, our craftsmanship guarantees apparel that lasts through all your university years and beyond.
+              From heavyweight 400GSM fleece Sweatshirts and breathable athletic jerseys to screen-printed graphic tees and customized student organization lanyards, our craftsmanship guarantees apparel that lasts through all your university years and beyond.
             </p>
           </div>
 
