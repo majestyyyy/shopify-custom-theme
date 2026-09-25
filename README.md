@@ -1,36 +1,92 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Headless Shopify Storefront (Next.js App Router)
 
-## Getting Started
+A high-performance, modern headless e-commerce storefront built with **Next.js (App Router)**, **TypeScript**, **Tailwind CSS**, and connected to Shopify via the **Storefront GraphQL API**.
 
-First, run the development server:
+---
+
+## ⚡ Features
+
+- **Next.js App Router & Server Components:** Server-side rendering, ISR caching, and SEO optimization out of the box.
+- **Shopify Storefront GraphQL Integration:** Fully typed queries for products, collections, variants, and real-time inventory.
+- **Dynamic Cart & Checkout:** Persistent client-side cart synced with Shopify Cart API mutations (`createCart`, `addToCart`, `updateCart`, `removeCartLines`), with direct redirect to Shopify's secure hosted checkout.
+- **Interactive Product Detail Pages:** Dynamic variant selection (Size, Color, etc.), live pricing, and image galleries.
+- **Slide-out Cart Drawer:** Smooth slide-over cart drawer with line item quantity controls.
+- **Responsive Modern UI:** Tailwind CSS and Lucide React icons.
+
+---
+
+## 🚀 Getting Started
+
+### 1. Environment Variables
+
+Create or update your `.env.local` file with your Shopify store credentials:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+NEXT_PUBLIC_SHOPIFY_STORE_DOMAIN="your-store.myshopify.com"
+NEXT_PUBLIC_SHOPIFY_STOREFRONT_ACCESS_TOKEN="your_storefront_access_token"
+NEXT_PUBLIC_SHOPIFY_API_VERSION="2024-10"
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+> **Note:** If no credentials are provided, the storefront defaults to Shopify's public `mock.shop` API so you can preview and test immediately.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 2. How to get your Storefront Access Token
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. Go to your **Shopify Admin** &rarr; **Settings** &rarr; **Apps and sales channels**.
+2. Click **Develop apps** &rarr; **Create an app**.
+3. Under **Configuration**, click **Configure** next to **Storefront API integration**.
+4. Enable the required access scopes:
+   - `unauthenticated_read_product_listings`
+   - `unauthenticated_read_product_inventory`
+   - `unauthenticated_read_product_tags`
+   - `unauthenticated_write_checkouts` / `unauthenticated_read_checkouts`
+   - `unauthenticated_write_customers` / `unauthenticated_read_customers`
+5. Click **Save**, then click **Install app**.
+6. Copy the **Storefront API access token** (found under the *Storefront API access tokens* section).
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🛠️ Development & Build Commands
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+# Start the local development server
+npm run dev
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+# Build for production
+npm run build
 
-## Deploy on Vercel
+# Start the production server
+npm run start
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+# Run ESLint checks
+npm run lint
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 📁 Project Structure
+
+```
+├── .env.local                    # Shopify Storefront API credentials
+├── src/
+│   ├── app/
+│   │   ├── layout.tsx            # Global layout (Navbar, Cart Drawer, Footer, CartProvider)
+│   │   ├── page.tsx              # Home landing page (Hero + Product showcase)
+│   │   ├── products/
+│   │   │   └── [handle]/page.tsx # Dynamic product detail page with variant picker
+│   │   └── collections/
+│   │       └── [handle]/page.tsx # Collection page
+│   ├── components/
+│   │   ├── layout/               # Navbar & Footer
+│   │   ├── home/                 # Hero section
+│   │   ├── product/              # ProductCard, ProductGrid, ProductDetails
+│   │   └── cart/                 # CartDrawer
+│   ├── context/
+│   │   └── cart-context.tsx      # React Cart Context (persistent localStorage sync)
+│   └── lib/
+│       ├── shopify/
+│       │   ├── client.ts         # GraphQL client executor with ISR & mock fallback
+│       │   ├── queries.ts        # Products & Collections GraphQL queries
+│       │   ├── mutations.ts      # Shopify Cart GraphQL mutations
+│       │   └── types.ts          # TypeScript interfaces for Shopify Storefront API
+│       └── utils.ts              # Price formatting and utility helpers
+```
