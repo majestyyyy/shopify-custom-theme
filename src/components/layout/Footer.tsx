@@ -12,18 +12,12 @@ export default function Footer() {
           {/* Brand Info */}
           <div className="space-y-4 md:col-span-2">
             <Link href="/" className="flex items-center gap-3">
-              <div className="relative h-12 w-16 flex-shrink-0">
-                <Image
-                  src="/logo.svg"
-                  alt="Printing Avenue PH Logo"
-                  fill
-                  sizes="64px"
-                  className="object-contain"
-                />
+              <div className="flex h-10 w-10 items-center justify-center border border-zinc-700 bg-white text-black font-black text-sm tracking-tighter">
+                CS
               </div>
               <div className="flex flex-col">
-                <span className="font-extrabold text-base tracking-tight text-white leading-tight">
-                  PRINTING AVENUE PH
+                <span className="font-extrabold text-base tracking-tight text-white leading-tight uppercase">
+                  CAMPUS STORE
                 </span>
                 <span className="text-[10px] font-bold tracking-widest text-zinc-500 uppercase">
                   Collegiate Merchandise Store
@@ -31,7 +25,7 @@ export default function Footer() {
               </div>
             </Link>
             <p className="text-xs text-zinc-400 leading-relaxed max-w-sm">
-              Printing Avenue PH is your trusted university apparel partner providing official and custom heavyweight Sweatshirts, varsity jerseys, graphic tees, caps, and lanyards for collegiate pride.
+              Your trusted collegiate merchandise provider featuring official and custom heavyweight hoodies, varsity jerseys, graphic tees, caps, and lanyards for university pride.
             </p>
           </div>
 
@@ -75,7 +69,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-12 border-t border-zinc-800 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-zinc-500">
-          <p>© {new Date().getFullYear()} Printing Avenue PH. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Collegiate Campus Store. All rights reserved.</p>
           <p className="flex items-center gap-1 text-zinc-400">
             Powered by <span className="font-semibold text-white">Shopify Headless Commerce</span>
           </p>

@@ -5,8 +5,8 @@ import { Metadata } from "next";
 import { Award, Sparkles, CheckCircle2, Users, Shield, ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "About Us | Printing Avenue PH",
-  description: "Learn more about Printing Avenue PH - premier provider of university merchandise, custom apparel, and campus gear.",
+  title: "About Us | Collegiate Campus Store",
+  description: "Learn more about our collegiate store - premier provider of university merchandise, custom apparel, and campus gear.",
 };
 
 export default function AboutPage() {
@@ -20,10 +20,10 @@ export default function AboutPage() {
             <span>Our Story & Mission</span>
           </div>
           <h1 className="text-4xl sm:text-5xl font-extrabold tracking-tight">
-            About <span className="text-white underline decoration-zinc-500">Printing Avenue PH</span>
+            About <span className="text-white underline decoration-zinc-500">Collegiate Campus Store</span>
           </h1>
           <p className="text-base sm:text-lg text-zinc-400 max-w-2xl mx-auto leading-relaxed">
-            Your premier destination for high-quality collegiate merchandise, custom university apparel, game-day jerseys, heavyweight Sweatshirts, and student organization merchandise.
+            Your premier destination for high-quality collegiate merchandise, custom university apparel, game-day jerseys, heavyweight hoodies, and student organization merchandise.
           </p>
         </div>
       </section>
@@ -40,21 +40,16 @@ export default function AboutPage() {
               We bring your campus pride to life with premium apparel.
             </h2>
             <p className="text-zinc-600 leading-relaxed text-sm sm:text-base">
-              At <strong>Printing Avenue PH</strong>, we believe university pride should be worn with comfort and durability. We specialize in producing official and custom merchandise for universities across the Philippines, including <strong>UE, FEU, UST, DLSU, ADU, ADMU, UP, NU</strong>, and more.
+              We believe university pride should be worn with comfort and durability. We specialize in producing official and custom merchandise for universities across the Philippines, including <strong>UE, FEU, UST, DLSU, ADU, ADMU, UP, NU</strong>, and more.
             </p>
             <p className="text-zinc-600 leading-relaxed text-sm sm:text-base">
-              From heavyweight 400GSM fleece Sweatshirts and breathable athletic jerseys to screen-printed graphic tees and customized student organization lanyards, our craftsmanship guarantees apparel that lasts through all your university years and beyond.
+              From heavyweight 400GSM fleece hoodies and breathable athletic jerseys to screen-printed graphic tees and customized student organization lanyards, our craftsmanship guarantees apparel that lasts through all your university years and beyond.
             </p>
           </div>
 
-          <div className="relative aspect-video lg:aspect-square overflow-hidden rounded-3xl bg-black p-8 flex flex-col justify-between text-white shadow-2xl border border-zinc-800">
-            <div className="relative h-20 w-28">
-              <Image
-                src="/logo.svg"
-                alt="Printing Avenue PH"
-                fill
-                className="object-contain"
-              />
+          <div className="relative aspect-video lg:aspect-square overflow-hidden rounded-none bg-black p-8 flex flex-col justify-between text-white shadow-2xl border border-zinc-800">
+            <div className="flex h-12 w-12 items-center justify-center border border-zinc-700 bg-white text-black font-black text-lg">
+              CS
             </div>
             <div className="space-y-2">
               <span className="text-zinc-400 text-xs font-bold tracking-widest uppercase">Our Commitment</span>

@@ -87,10 +87,7 @@ export default function UniversityEditorial() {
           <div className="space-y-2">
             <h2 className="text-3xl sm:text-5xl font-extrabold tracking-tight uppercase text-zinc-950">
               Shop by University
-            </h2>
-            <p className="text-sm sm:text-base text-zinc-600 max-w-2xl leading-relaxed">
-              Explore dedicated university lookbooks featuring heavyweight fleece hoodies, varsity game-day jerseys, everyday graphic tees, caps, and lanyards.
-            </p>
+            </h2>    
           </div>
 
           <div className="text-xs font-semibold text-zinc-500 uppercase tracking-wider">
@@ -124,7 +121,7 @@ export default function UniversityEditorial() {
                   COLLEGIATE LOOKBOOK
                 </span>
               </div>
-              
+
               <div className="relative z-10 text-left space-y-1.5 mt-auto pt-8">
                 <div className="flex items-center gap-2">
                   <span className="inline-block text-[10px] font-bold uppercase tracking-widest text-zinc-400 border border-zinc-800 px-2 py-0.5 bg-zinc-900/80">

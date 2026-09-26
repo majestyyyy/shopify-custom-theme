@@ -53,29 +53,32 @@ export default function Navbar() {
         <div className="flex items-center justify-center gap-2">
           <Sparkles className="h-3.5 w-3.5 text-white" />
           <span>
-            PRINTING AVENUE PH — Official & Custom University Merchandise
+            COLLEGIATE CAMPUS STORE — Official & Custom University Merchandise
           </span>
         </div>
       </div>
 
       {/* Main Navbar Header */}
       <header className="sticky top-0 z-40 w-full bg-black text-white border-b border-zinc-800 shadow-xl">
-        <div ref={navRef} className="relative mx-auto flex h-24 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
-          {/* Left: Logo Only (Acts as Home Button) */}
+        <div ref={navRef} className="relative mx-auto flex h-20 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
+          {/* Left: Minimalist Store Identifier (Acts as Home Button) */}
           <div className="flex items-center flex-shrink-0 z-10">
             <Link
               href="/"
-              aria-label="Printing Avenue PH - Home"
-              className="relative flex h-18 w-28 sm:h-20 sm:w-36 md:h-22 md:w-40 items-center justify-center transition-transform hover:scale-105 active:scale-95 group"
+              aria-label="Collegiate Campus Store - Home"
+              className="flex items-center gap-2.5 transition-transform hover:opacity-80 active:scale-95 group"
             >
-              <Image
-                src="/logo.svg"
-                alt="Printing Avenue PH"
-                fill
-                sizes="(min-width: 768px) 160px, (min-width: 640px) 144px, 112px"
-                className="object-contain transition group-hover:brightness-125"
-                priority
-              />
+              <div className="flex h-9 w-9 items-center justify-center border border-zinc-700 bg-white text-black font-black text-sm tracking-tighter">
+                CS
+              </div>
+              <div className="flex flex-col text-left">
+                <span className="font-black text-base tracking-tight uppercase text-white leading-none">
+                  CAMPUS STORE
+                </span>
+                <span className="text-[9px] font-bold tracking-widest text-zinc-400 uppercase pt-0.5">
+                  Collegiate Merch
+                </span>
+              </div>
             </Link>
           </div>
 

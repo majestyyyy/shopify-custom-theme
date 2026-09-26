@@ -116,7 +116,7 @@ export default function Hero() {
                   COLLEGIATE APPAREL
                 </span>
                 <h3 className="text-2xl sm:text-3xl font-black uppercase tracking-tight text-white leading-none">
-                  PRINTING AVENUE PH
+                  CAMPUS MERCH
                 </h3>
                 <p className="text-xs text-zinc-400">
                   Official Varsity Apparel & Custom Batch Specialists

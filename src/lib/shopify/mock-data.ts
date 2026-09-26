@@ -66,7 +66,7 @@ export const UNIVERSITY_PRODUCTS: Product[] = [
     "description": "Signature heavyweight brushed fleece pullover with custom chenille lettering and ribbed cuffs. Official University of the Philippines (UP) collection item.",
     "descriptionHtml": "<p>Signature heavyweight brushed fleece pullover with custom chenille lettering and ribbed cuffs. Official University of the Philippines (UP) collection item.</p>",
     "availableForSale": true,
-    "vendor": "PRINTING AVENUE PH",
+    "vendor": "COLLEGIATE MERCH",
     "tags": [
       "UP",
       "Hoodie",
@@ -159,7 +159,7 @@ export const UNIVERSITY_PRODUCTS: Product[] = [
     "description": "260GSM carded cotton drop-shoulder streetwear tee featuring vintage typography and emblems. Official University of the Philippines (UP) collection item.",
     "descriptionHtml": "<p>260GSM carded cotton drop-shoulder streetwear tee featuring vintage typography and emblems. Official University of the Philippines (UP) collection item.</p>",
     "availableForSale": true,
-    "vendor": "PRINTING AVENUE PH",
+    "vendor": "COLLEGIATE MERCH",
     "tags": [
       "UP",
       "Shirt",
@@ -249,7 +249,7 @@ export const UNIVERSITY_PRODUCTS: Product[] = [
     "description": "Breathable dual-mesh varsity jersey with reinforced contrast side panels and heat-pressed lettering. Official University of the Philippines (UP) collection item.",
     "descriptionHtml": "<p>Breathable dual-mesh varsity jersey with reinforced contrast side panels and heat-pressed lettering. Official University of the Philippines (UP) collection item.</p>",
     "availableForSale": true,
-    "vendor": "PRINTING AVENUE PH",
+    "vendor": "COLLEGIATE MERCH",
     "tags": [
       "UP",
       "Jersey",
@@ -342,7 +342,7 @@ export const UNIVERSITY_PRODUCTS: Product[] = [
     "description": "Structured 6-panel wool blend cap with raised 3D monogram and classic green undervisor. Official University of the Philippines (UP) collection item.",
     "descriptionHtml": "<p>Structured 6-panel wool blend cap with raised 3D monogram and classic green undervisor. Official University of the Philippines (UP) collection item.</p>",
     "availableForSale": true,
-    "vendor": "PRINTING AVENUE PH",
+    "vendor": "COLLEGIATE MERCH",
     "tags": [
       "UP",
       "Cap",
@@ -416,7 +416,7 @@ export const UNIVERSITY_PRODUCTS: Product[] = [
     "description": "High-density woven lanyard with matte alloy swivel clasp and breakaway safety clip. Official University of the Philippines (UP) collection item.",
     "descriptionHtml": "<p>High-density woven lanyard with matte alloy swivel clasp and breakaway safety clip. Official University of the Philippines (UP) collection item.</p>",
     "availableForSale": true,
-    "vendor": "PRINTING AVENUE PH",
+    "vendor": "COLLEGIATE MERCH",
     "tags": [
       "UP",
       "Lanyard",
@@ -490,7 +490,7 @@ export const UNIVERSITY_PRODUCTS: Product[] = [
     "description": "Retro washed 240GSM combed cotton tee with distressed collegiate screenprint. Official University of the Philippines (UP) collection item.",
     "descriptionHtml": "<p>Retro washed 240GSM combed cotton tee with distressed collegiate screenprint. Official University of the Philippines (UP) collection item.</p>",
     "availableForSale": true,
-    "vendor": "PRINTING AVENUE PH",
+    "vendor": "COLLEGIATE MERCH",
     "tags": [
       "UP",
       "Shirt",
@@ -579,7 +579,7 @@ export const UNIVERSITY_PRODUCTS: Product[] = [
     "description": "Full-zip heavyweight fleece jacket with chenille varsity letter patches on chest and sleeve. Official University of the Philippines (UP) collection item.",
     "descriptionHtml": "<p>Full-zip heavyweight fleece jacket with chenille varsity letter patches on chest and sleeve. Official University of the Philippines (UP) collection item.</p>",
     "availableForSale": true,
-    "vendor": "PRINTING AVENUE PH",
+    "vendor": "COLLEGIATE MERCH",
     "tags": [
       "UP",
       "Hoodie",
@@ -671,7 +671,7 @@ export const UNIVERSITY_PRODUCTS: Product[] = [
     "description": "Contrast rib collar and sleeve ringer tee inspired by 90s campus aesthetics. Official University of the Philippines (UP) collection item.",
     "descriptionHtml": "<p>Contrast rib collar and sleeve ringer tee inspired by 90s campus aesthetics. Official University of the Philippines (UP) collection item.</p>",
     "availableForSale": true,
-    "vendor": "PRINTING AVENUE PH",
+    "vendor": "COLLEGIATE MERCH",
     "tags": [
       "UP",
       "Shirt",
@@ -760,7 +760,7 @@ export const UNIVERSITY_PRODUCTS: Product[] = [
     "description": "Low-profile relaxed dad hat with metal buckle strap and micro-embroidered collegiate seal. Official University of the Philippines (UP) collection item.",
     "descriptionHtml": "<p>Low-profile relaxed dad hat with metal buckle strap and micro-embroidered collegiate seal. Official University of the Philippines (UP) collection item.</p>",
     "availableForSale": true,
-    "vendor": "PRINTING AVENUE PH",
+    "vendor": "COLLEGIATE MERCH",
     "tags": [
       "UP",
       "Cap",
@@ -834,7 +834,7 @@ export const UNIVERSITY_PRODUCTS: Product[] = [
     "description": "Ultra-lightweight mesh training tank engineered for athletic performance and campus intramurals. Official University of the Philippines (UP) collection item.",
     "descriptionHtml": "<p>Ultra-lightweight mesh training tank engineered for athletic performance and campus intramurals. Official University of the Philippines (UP) collection item.</p>",
     "availableForSale": true,
-    "vendor": "PRINTING AVENUE PH",
+    "vendor": "COLLEGIATE MERCH",
     "tags": [
       "UP",
       "Jersey",
@@ -923,7 +923,7 @@ export const UNIVERSITY_PRODUCTS: Product[] = [
     "description": "Signature heavyweight brushed fleece pullover with custom chenille lettering and ribbed cuffs. Official De La Salle University (DLSU) collection item.",
     "descriptionHtml": "<p>Signature heavyweight brushed fleece pullover with custom chenille lettering and ribbed cuffs. Official De La Salle University (DLSU) collection item.</p>",
     "availableForSale": true,
-    "vendor": "PRINTING AVENUE PH",
+    "vendor": "COLLEGIATE MERCH",
     "tags": [
       "DLSU",
       "Hoodie",
@@ -1016,7 +1016,7 @@ export const UNIVERSITY_PRODUCTS: Product[] = [
     "description": "260GSM carded cotton drop-shoulder streetwear tee featuring vintage typography and emblems. Official De La Salle University (DLSU) collection item.",
     "descriptionHtml": "<p>260GSM carded cotton drop-shoulder streetwear tee featuring vintage typography and emblems. Official De La Salle University (DLSU) collection item.</p>",
     "availableForSale": true,
-    "vendor": "PRINTING AVENUE PH",
+    "vendor": "COLLEGIATE MERCH",
     "tags": [
       "DLSU",
       "Shirt",
@@ -1106,7 +1106,7 @@ export const UNIVERSITY_PRODUCTS: Product[] = [
     "description": "Breathable dual-mesh varsity jersey with reinforced contrast side panels and heat-pressed lettering. Official De La Salle University (DLSU) collection item.",
     "descriptionHtml": "<p>Breathable dual-mesh varsity jersey with reinforced contrast side panels and heat-pressed lettering. Official De La Salle University (DLSU) collection item.</p>",
     "availableForSale": true,
-    "vendor": "PRINTING AVENUE PH",
+    "vendor": "COLLEGIATE MERCH",
     "tags": [
       "DLSU",
       "Jersey",
@@ -1199,7 +1199,7 @@ export const UNIVERSITY_PRODUCTS: Product[] = [
     "description": "Structured 6-panel wool blend cap with raised 3D monogram and classic green undervisor. Official De La Salle University (DLSU) collection item.",
     "descriptionHtml": "<p>Structured 6-panel wool blend cap with raised 3D monogram and classic green undervisor. Official De La Salle University (DLSU) collection item.</p>",
     "availableForSale": true,
-    "vendor": "PRINTING AVENUE PH",
+    "vendor": "COLLEGIATE MERCH",
     "tags": [
       "DLSU",
       "Cap",
@@ -1273,7 +1273,7 @@ export const UNIVERSITY_PRODUCTS: Product[] = [
     "description": "High-density woven lanyard with matte alloy swivel clasp and breakaway safety clip. Official De La Salle University (DLSU) collection item.",
     "descriptionHtml": "<p>High-density woven lanyard with matte alloy swivel clasp and breakaway safety clip. Official De La Salle University (DLSU) collection item.</p>",
     "availableForSale": true,
-    "vendor": "PRINTING AVENUE PH",
+    "vendor": "COLLEGIATE MERCH",
     "tags": [
       "DLSU",
       "Lanyard",
@@ -1347,7 +1347,7 @@ export const UNIVERSITY_PRODUCTS: Product[] = [
     "description": "Retro washed 240GSM combed cotton tee with distressed collegiate screenprint. Official De La Salle University (DLSU) collection item.",
     "descriptionHtml": "<p>Retro washed 240GSM combed cotton tee with distressed collegiate screenprint. Official De La Salle University (DLSU) collection item.</p>",
     "availableForSale": true,
-    "vendor": "PRINTING AVENUE PH",
+    "vendor": "COLLEGIATE MERCH",
     "tags": [
       "DLSU",
       "Shirt",
@@ -1436,7 +1436,7 @@ export const UNIVERSITY_PRODUCTS: Product[] = [
     "description": "Full-zip heavyweight fleece jacket with chenille varsity letter patches on chest and sleeve. Official De La Salle University (DLSU) collection item.",
     "descriptionHtml": "<p>Full-zip heavyweight fleece jacket with chenille varsity letter patches on chest and sleeve. Official De La Salle University (DLSU) collection item.</p>",
     "availableForSale": true,
-    "vendor": "PRINTING AVENUE PH",
+    "vendor": "COLLEGIATE MERCH",
     "tags": [
       "DLSU",
       "Hoodie",
@@ -1528,7 +1528,7 @@ export const UNIVERSITY_PRODUCTS: Product[] = [
     "description": "Contrast rib collar and sleeve ringer tee inspired by 90s campus aesthetics. Official De La Salle University (DLSU) collection item.",
     "descriptionHtml": "<p>Contrast rib collar and sleeve ringer tee inspired by 90s campus aesthetics. Official De La Salle University (DLSU) collection item.</p>",
     "availableForSale": true,
-    "vendor": "PRINTING AVENUE PH",
+    "vendor": "COLLEGIATE MERCH",
     "tags": [
       "DLSU",
       "Shirt",
@@ -1617,7 +1617,7 @@ export const UNIVERSITY_PRODUCTS: Product[] = [
     "description": "Low-profile relaxed dad hat with metal buckle strap and micro-embroidered collegiate seal. Official De La Salle University (DLSU) collection item.",
     "descriptionHtml": "<p>Low-profile relaxed dad hat with metal buckle strap and micro-embroidered collegiate seal. Official De La Salle University (DLSU) collection item.</p>",
     "availableForSale": true,
-    "vendor": "PRINTING AVENUE PH",
+    "vendor": "COLLEGIATE MERCH",
     "tags": [
       "DLSU",
       "Cap",
@@ -1691,7 +1691,7 @@ export const UNIVERSITY_PRODUCTS: Product[] = [
     "description": "Ultra-lightweight mesh training tank engineered for athletic performance and campus intramurals. Official De La Salle University (DLSU) collection item.",
     "descriptionHtml": "<p>Ultra-lightweight mesh training tank engineered for athletic performance and campus intramurals. Official De La Salle University (DLSU) collection item.</p>",
     "availableForSale": true,
-    "vendor": "PRINTING AVENUE PH",
+    "vendor": "COLLEGIATE MERCH",
     "tags": [
       "DLSU",
       "Jersey",
@@ -1780,7 +1780,7 @@ export const UNIVERSITY_PRODUCTS: Product[] = [
     "description": "Signature heavyweight brushed fleece pullover with custom chenille lettering and ribbed cuffs. Official University of Santo Tomas (UST) collection item.",
     "descriptionHtml": "<p>Signature heavyweight brushed fleece pullover with custom chenille lettering and ribbed cuffs. Official University of Santo Tomas (UST) collection item.</p>",
     "availableForSale": true,
-    "vendor": "PRINTING AVENUE PH",
+    "vendor": "COLLEGIATE MERCH",
     "tags": [
       "UST",
       "Hoodie",
@@ -1873,7 +1873,7 @@ export const UNIVERSITY_PRODUCTS: Product[] = [
     "description": "260GSM carded cotton drop-shoulder streetwear tee featuring vintage typography and emblems. Official University of Santo Tomas (UST) collection item.",
     "descriptionHtml": "<p>260GSM carded cotton drop-shoulder streetwear tee featuring vintage typography and emblems. Official University of Santo Tomas (UST) collection item.</p>",
     "availableForSale": true,
-    "vendor": "PRINTING AVENUE PH",
+    "vendor": "COLLEGIATE MERCH",
     "tags": [
       "UST",
       "Shirt",
@@ -1963,7 +1963,7 @@ export const UNIVERSITY_PRODUCTS: Product[] = [
     "description": "Breathable dual-mesh varsity jersey with reinforced contrast side panels and heat-pressed lettering. Official University of Santo Tomas (UST) collection item.",
     "descriptionHtml": "<p>Breathable dual-mesh varsity jersey with reinforced contrast side panels and heat-pressed lettering. Official University of Santo Tomas (UST) collection item.</p>",
     "availableForSale": true,
-    "vendor": "PRINTING AVENUE PH",
+    "vendor": "COLLEGIATE MERCH",
     "tags": [
       "UST",
       "Jersey",
@@ -2056,7 +2056,7 @@ export const UNIVERSITY_PRODUCTS: Product[] = [
     "description": "Structured 6-panel wool blend cap with raised 3D monogram and classic green undervisor. Official University of Santo Tomas (UST) collection item.",
     "descriptionHtml": "<p>Structured 6-panel wool blend cap with raised 3D monogram and classic green undervisor. Official University of Santo Tomas (UST) collection item.</p>",
     "availableForSale": true,
-    "vendor": "PRINTING AVENUE PH",
+    "vendor": "COLLEGIATE MERCH",
     "tags": [
       "UST",
       "Cap",
@@ -2130,7 +2130,7 @@ export const UNIVERSITY_PRODUCTS: Product[] = [
     "description": "High-density woven lanyard with matte alloy swivel clasp and breakaway safety clip. Official University of Santo Tomas (UST) collection item.",
     "descriptionHtml": "<p>High-density woven lanyard with matte alloy swivel clasp and breakaway safety clip. Official University of Santo Tomas (UST) collection item.</p>",
     "availableForSale": true,
-    "vendor": "PRINTING AVENUE PH",
+    "vendor": "COLLEGIATE MERCH",
     "tags": [
       "UST",
       "Lanyard",
@@ -2204,7 +2204,7 @@ export const UNIVERSITY_PRODUCTS: Product[] = [
     "description": "Retro washed 240GSM combed cotton tee with distressed collegiate screenprint. Official University of Santo Tomas (UST) collection item.",
     "descriptionHtml": "<p>Retro washed 240GSM combed cotton tee with distressed collegiate screenprint. Official University of Santo Tomas (UST) collection item.</p>",
     "availableForSale": true,
-    "vendor": "PRINTING AVENUE PH",
+    "vendor": "COLLEGIATE MERCH",
     "tags": [
       "UST",
       "Shirt",
@@ -2293,7 +2293,7 @@ export const UNIVERSITY_PRODUCTS: Product[] = [
     "description": "Full-zip heavyweight fleece jacket with chenille varsity letter patches on chest and sleeve. Official University of Santo Tomas (UST) collection item.",
     "descriptionHtml": "<p>Full-zip heavyweight fleece jacket with chenille varsity letter patches on chest and sleeve. Official University of Santo Tomas (UST) collection item.</p>",
     "availableForSale": true,
-    "vendor": "PRINTING AVENUE PH",
+    "vendor": "COLLEGIATE MERCH",
     "tags": [
       "UST",
       "Hoodie",
@@ -2385,7 +2385,7 @@ export const UNIVERSITY_PRODUCTS: Product[] = [
     "description": "Contrast rib collar and sleeve ringer tee inspired by 90s campus aesthetics. Official University of Santo Tomas (UST) collection item.",
     "descriptionHtml": "<p>Contrast rib collar and sleeve ringer tee inspired by 90s campus aesthetics. Official University of Santo Tomas (UST) collection item.</p>",
     "availableForSale": true,
-    "vendor": "PRINTING AVENUE PH",
+    "vendor": "COLLEGIATE MERCH",
     "tags": [
       "UST",
       "Shirt",
@@ -2474,7 +2474,7 @@ export const UNIVERSITY_PRODUCTS: Product[] = [
     "description": "Low-profile relaxed dad hat with metal buckle strap and micro-embroidered collegiate seal. Official University of Santo Tomas (UST) collection item.",
     "descriptionHtml": "<p>Low-profile relaxed dad hat with metal buckle strap and micro-embroidered collegiate seal. Official University of Santo Tomas (UST) collection item.</p>",
     "availableForSale": true,
-    "vendor": "PRINTING AVENUE PH",
+    "vendor": "COLLEGIATE MERCH",
     "tags": [
       "UST",
       "Cap",
@@ -2548,7 +2548,7 @@ export const UNIVERSITY_PRODUCTS: Product[] = [
     "description": "Ultra-lightweight mesh training tank engineered for athletic performance and campus intramurals. Official University of Santo Tomas (UST) collection item.",
     "descriptionHtml": "<p>Ultra-lightweight mesh training tank engineered for athletic performance and campus intramurals. Official University of Santo Tomas (UST) collection item.</p>",
     "availableForSale": true,
-    "vendor": "PRINTING AVENUE PH",
+    "vendor": "COLLEGIATE MERCH",
     "tags": [
       "UST",
       "Jersey",
@@ -2637,7 +2637,7 @@ export const UNIVERSITY_PRODUCTS: Product[] = [
     "description": "Signature heavyweight brushed fleece pullover with custom chenille lettering and ribbed cuffs. Official Ateneo de Manila University (ADMU) collection item.",
     "descriptionHtml": "<p>Signature heavyweight brushed fleece pullover with custom chenille lettering and ribbed cuffs. Official Ateneo de Manila University (ADMU) collection item.</p>",
     "availableForSale": true,
-    "vendor": "PRINTING AVENUE PH",
+    "vendor": "COLLEGIATE MERCH",
     "tags": [
       "ADMU",
       "Hoodie",
@@ -2730,7 +2730,7 @@ export const UNIVERSITY_PRODUCTS: Product[] = [
     "description": "260GSM carded cotton drop-shoulder streetwear tee featuring vintage typography and emblems. Official Ateneo de Manila University (ADMU) collection item.",
     "descriptionHtml": "<p>260GSM carded cotton drop-shoulder streetwear tee featuring vintage typography and emblems. Official Ateneo de Manila University (ADMU) collection item.</p>",
     "availableForSale": true,
-    "vendor": "PRINTING AVENUE PH",
+    "vendor": "COLLEGIATE MERCH",
     "tags": [
       "ADMU",
       "Shirt",
@@ -2820,7 +2820,7 @@ export const UNIVERSITY_PRODUCTS: Product[] = [
     "description": "Breathable dual-mesh varsity jersey with reinforced contrast side panels and heat-pressed lettering. Official Ateneo de Manila University (ADMU) collection item.",
     "descriptionHtml": "<p>Breathable dual-mesh varsity jersey with reinforced contrast side panels and heat-pressed lettering. Official Ateneo de Manila University (ADMU) collection item.</p>",
     "availableForSale": true,
-    "vendor": "PRINTING AVENUE PH",
+    "vendor": "COLLEGIATE MERCH",
     "tags": [
       "ADMU",
       "Jersey",
@@ -2913,7 +2913,7 @@ export const UNIVERSITY_PRODUCTS: Product[] = [
     "description": "Structured 6-panel wool blend cap with raised 3D monogram and classic green undervisor. Official Ateneo de Manila University (ADMU) collection item.",
     "descriptionHtml": "<p>Structured 6-panel wool blend cap with raised 3D monogram and classic green undervisor. Official Ateneo de Manila University (ADMU) collection item.</p>",
     "availableForSale": true,
-    "vendor": "PRINTING AVENUE PH",
+    "vendor": "COLLEGIATE MERCH",
     "tags": [
       "ADMU",
       "Cap",
@@ -2987,7 +2987,7 @@ export const UNIVERSITY_PRODUCTS: Product[] = [
     "description": "High-density woven lanyard with matte alloy swivel clasp and breakaway safety clip. Official Ateneo de Manila University (ADMU) collection item.",
     "descriptionHtml": "<p>High-density woven lanyard with matte alloy swivel clasp and breakaway safety clip. Official Ateneo de Manila University (ADMU) collection item.</p>",
     "availableForSale": true,
-    "vendor": "PRINTING AVENUE PH",
+    "vendor": "COLLEGIATE MERCH",
     "tags": [
       "ADMU",
       "Lanyard",
@@ -3061,7 +3061,7 @@ export const UNIVERSITY_PRODUCTS: Product[] = [
     "description": "Retro washed 240GSM combed cotton tee with distressed collegiate screenprint. Official Ateneo de Manila University (ADMU) collection item.",
     "descriptionHtml": "<p>Retro washed 240GSM combed cotton tee with distressed collegiate screenprint. Official Ateneo de Manila University (ADMU) collection item.</p>",
     "availableForSale": true,
-    "vendor": "PRINTING AVENUE PH",
+    "vendor": "COLLEGIATE MERCH",
     "tags": [
       "ADMU",
       "Shirt",
@@ -3150,7 +3150,7 @@ export const UNIVERSITY_PRODUCTS: Product[] = [
     "description": "Full-zip heavyweight fleece jacket with chenille varsity letter patches on chest and sleeve. Official Ateneo de Manila University (ADMU) collection item.",
     "descriptionHtml": "<p>Full-zip heavyweight fleece jacket with chenille varsity letter patches on chest and sleeve. Official Ateneo de Manila University (ADMU) collection item.</p>",
     "availableForSale": true,
-    "vendor": "PRINTING AVENUE PH",
+    "vendor": "COLLEGIATE MERCH",
     "tags": [
       "ADMU",
       "Hoodie",
@@ -3242,7 +3242,7 @@ export const UNIVERSITY_PRODUCTS: Product[] = [
     "description": "Contrast rib collar and sleeve ringer tee inspired by 90s campus aesthetics. Official Ateneo de Manila University (ADMU) collection item.",
     "descriptionHtml": "<p>Contrast rib collar and sleeve ringer tee inspired by 90s campus aesthetics. Official Ateneo de Manila University (ADMU) collection item.</p>",
     "availableForSale": true,
-    "vendor": "PRINTING AVENUE PH",
+    "vendor": "COLLEGIATE MERCH",
     "tags": [
       "ADMU",
       "Shirt",
@@ -3331,7 +3331,7 @@ export const UNIVERSITY_PRODUCTS: Product[] = [
     "description": "Low-profile relaxed dad hat with metal buckle strap and micro-embroidered collegiate seal. Official Ateneo de Manila University (ADMU) collection item.",
     "descriptionHtml": "<p>Low-profile relaxed dad hat with metal buckle strap and micro-embroidered collegiate seal. Official Ateneo de Manila University (ADMU) collection item.</p>",
     "availableForSale": true,
-    "vendor": "PRINTING AVENUE PH",
+    "vendor": "COLLEGIATE MERCH",
     "tags": [
       "ADMU",
       "Cap",
@@ -3405,7 +3405,7 @@ export const UNIVERSITY_PRODUCTS: Product[] = [
     "description": "Ultra-lightweight mesh training tank engineered for athletic performance and campus intramurals. Official Ateneo de Manila University (ADMU) collection item.",
     "descriptionHtml": "<p>Ultra-lightweight mesh training tank engineered for athletic performance and campus intramurals. Official Ateneo de Manila University (ADMU) collection item.</p>",
     "availableForSale": true,
-    "vendor": "PRINTING AVENUE PH",
+    "vendor": "COLLEGIATE MERCH",
     "tags": [
       "ADMU",
       "Jersey",
@@ -3494,7 +3494,7 @@ export const UNIVERSITY_PRODUCTS: Product[] = [
     "description": "Signature heavyweight brushed fleece pullover with custom chenille lettering and ribbed cuffs. Official Far Eastern University (FEU) collection item.",
     "descriptionHtml": "<p>Signature heavyweight brushed fleece pullover with custom chenille lettering and ribbed cuffs. Official Far Eastern University (FEU) collection item.</p>",
     "availableForSale": true,
-    "vendor": "PRINTING AVENUE PH",
+    "vendor": "COLLEGIATE MERCH",
     "tags": [
       "FEU",
       "Hoodie",
@@ -3587,7 +3587,7 @@ export const UNIVERSITY_PRODUCTS: Product[] = [
     "description": "260GSM carded cotton drop-shoulder streetwear tee featuring vintage typography and emblems. Official Far Eastern University (FEU) collection item.",
     "descriptionHtml": "<p>260GSM carded cotton drop-shoulder streetwear tee featuring vintage typography and emblems. Official Far Eastern University (FEU) collection item.</p>",
     "availableForSale": true,
-    "vendor": "PRINTING AVENUE PH",
+    "vendor": "COLLEGIATE MERCH",
     "tags": [
       "FEU",
       "Shirt",
@@ -3677,7 +3677,7 @@ export const UNIVERSITY_PRODUCTS: Product[] = [
     "description": "Breathable dual-mesh varsity jersey with reinforced contrast side panels and heat-pressed lettering. Official Far Eastern University (FEU) collection item.",
     "descriptionHtml": "<p>Breathable dual-mesh varsity jersey with reinforced contrast side panels and heat-pressed lettering. Official Far Eastern University (FEU) collection item.</p>",
     "availableForSale": true,
-    "vendor": "PRINTING AVENUE PH",
+    "vendor": "COLLEGIATE MERCH",
     "tags": [
       "FEU",
       "Jersey",
@@ -3770,7 +3770,7 @@ export const UNIVERSITY_PRODUCTS: Product[] = [
     "description": "Structured 6-panel wool blend cap with raised 3D monogram and classic green undervisor. Official Far Eastern University (FEU) collection item.",
     "descriptionHtml": "<p>Structured 6-panel wool blend cap with raised 3D monogram and classic green undervisor. Official Far Eastern University (FEU) collection item.</p>",
     "availableForSale": true,
-    "vendor": "PRINTING AVENUE PH",
+    "vendor": "COLLEGIATE MERCH",
     "tags": [
       "FEU",
       "Cap",
@@ -3844,7 +3844,7 @@ export const UNIVERSITY_PRODUCTS: Product[] = [
     "description": "High-density woven lanyard with matte alloy swivel clasp and breakaway safety clip. Official Far Eastern University (FEU) collection item.",
     "descriptionHtml": "<p>High-density woven lanyard with matte alloy swivel clasp and breakaway safety clip. Official Far Eastern University (FEU) collection item.</p>",
     "availableForSale": true,
-    "vendor": "PRINTING AVENUE PH",
+    "vendor": "COLLEGIATE MERCH",
     "tags": [
       "FEU",
       "Lanyard",
@@ -3918,7 +3918,7 @@ export const UNIVERSITY_PRODUCTS: Product[] = [
     "description": "Retro washed 240GSM combed cotton tee with distressed collegiate screenprint. Official Far Eastern University (FEU) collection item.",
     "descriptionHtml": "<p>Retro washed 240GSM combed cotton tee with distressed collegiate screenprint. Official Far Eastern University (FEU) collection item.</p>",
     "availableForSale": true,
-    "vendor": "PRINTING AVENUE PH",
+    "vendor": "COLLEGIATE MERCH",
     "tags": [
       "FEU",
       "Shirt",
@@ -4007,7 +4007,7 @@ export const UNIVERSITY_PRODUCTS: Product[] = [
     "description": "Full-zip heavyweight fleece jacket with chenille varsity letter patches on chest and sleeve. Official Far Eastern University (FEU) collection item.",
     "descriptionHtml": "<p>Full-zip heavyweight fleece jacket with chenille varsity letter patches on chest and sleeve. Official Far Eastern University (FEU) collection item.</p>",
     "availableForSale": true,
-    "vendor": "PRINTING AVENUE PH",
+    "vendor": "COLLEGIATE MERCH",
     "tags": [
       "FEU",
       "Hoodie",
@@ -4099,7 +4099,7 @@ export const UNIVERSITY_PRODUCTS: Product[] = [
     "description": "Contrast rib collar and sleeve ringer tee inspired by 90s campus aesthetics. Official Far Eastern University (FEU) collection item.",
     "descriptionHtml": "<p>Contrast rib collar and sleeve ringer tee inspired by 90s campus aesthetics. Official Far Eastern University (FEU) collection item.</p>",
     "availableForSale": true,
-    "vendor": "PRINTING AVENUE PH",
+    "vendor": "COLLEGIATE MERCH",
     "tags": [
       "FEU",
       "Shirt",
@@ -4188,7 +4188,7 @@ export const UNIVERSITY_PRODUCTS: Product[] = [
     "description": "Low-profile relaxed dad hat with metal buckle strap and micro-embroidered collegiate seal. Official Far Eastern University (FEU) collection item.",
     "descriptionHtml": "<p>Low-profile relaxed dad hat with metal buckle strap and micro-embroidered collegiate seal. Official Far Eastern University (FEU) collection item.</p>",
     "availableForSale": true,
-    "vendor": "PRINTING AVENUE PH",
+    "vendor": "COLLEGIATE MERCH",
     "tags": [
       "FEU",
       "Cap",
@@ -4262,7 +4262,7 @@ export const UNIVERSITY_PRODUCTS: Product[] = [
     "description": "Ultra-lightweight mesh training tank engineered for athletic performance and campus intramurals. Official Far Eastern University (FEU) collection item.",
     "descriptionHtml": "<p>Ultra-lightweight mesh training tank engineered for athletic performance and campus intramurals. Official Far Eastern University (FEU) collection item.</p>",
     "availableForSale": true,
-    "vendor": "PRINTING AVENUE PH",
+    "vendor": "COLLEGIATE MERCH",
     "tags": [
       "FEU",
       "Jersey",
@@ -4351,7 +4351,7 @@ export const UNIVERSITY_PRODUCTS: Product[] = [
     "description": "Signature heavyweight brushed fleece pullover with custom chenille lettering and ribbed cuffs. Official University of the East (UE) collection item.",
     "descriptionHtml": "<p>Signature heavyweight brushed fleece pullover with custom chenille lettering and ribbed cuffs. Official University of the East (UE) collection item.</p>",
     "availableForSale": true,
-    "vendor": "PRINTING AVENUE PH",
+    "vendor": "COLLEGIATE MERCH",
     "tags": [
       "UE",
       "Hoodie",
@@ -4444,7 +4444,7 @@ export const UNIVERSITY_PRODUCTS: Product[] = [
     "description": "260GSM carded cotton drop-shoulder streetwear tee featuring vintage typography and emblems. Official University of the East (UE) collection item.",
     "descriptionHtml": "<p>260GSM carded cotton drop-shoulder streetwear tee featuring vintage typography and emblems. Official University of the East (UE) collection item.</p>",
     "availableForSale": true,
-    "vendor": "PRINTING AVENUE PH",
+    "vendor": "COLLEGIATE MERCH",
     "tags": [
       "UE",
       "Shirt",
@@ -4534,7 +4534,7 @@ export const UNIVERSITY_PRODUCTS: Product[] = [
     "description": "Breathable dual-mesh varsity jersey with reinforced contrast side panels and heat-pressed lettering. Official University of the East (UE) collection item.",
     "descriptionHtml": "<p>Breathable dual-mesh varsity jersey with reinforced contrast side panels and heat-pressed lettering. Official University of the East (UE) collection item.</p>",
     "availableForSale": true,
-    "vendor": "PRINTING AVENUE PH",
+    "vendor": "COLLEGIATE MERCH",
     "tags": [
       "UE",
       "Jersey",
@@ -4627,7 +4627,7 @@ export const UNIVERSITY_PRODUCTS: Product[] = [
     "description": "Structured 6-panel wool blend cap with raised 3D monogram and classic green undervisor. Official University of the East (UE) collection item.",
     "descriptionHtml": "<p>Structured 6-panel wool blend cap with raised 3D monogram and classic green undervisor. Official University of the East (UE) collection item.</p>",
     "availableForSale": true,
-    "vendor": "PRINTING AVENUE PH",
+    "vendor": "COLLEGIATE MERCH",
     "tags": [
       "UE",
       "Cap",
@@ -4701,7 +4701,7 @@ export const UNIVERSITY_PRODUCTS: Product[] = [
     "description": "High-density woven lanyard with matte alloy swivel clasp and breakaway safety clip. Official University of the East (UE) collection item.",
     "descriptionHtml": "<p>High-density woven lanyard with matte alloy swivel clasp and breakaway safety clip. Official University of the East (UE) collection item.</p>",
     "availableForSale": true,
-    "vendor": "PRINTING AVENUE PH",
+    "vendor": "COLLEGIATE MERCH",
     "tags": [
       "UE",
       "Lanyard",
@@ -4775,7 +4775,7 @@ export const UNIVERSITY_PRODUCTS: Product[] = [
     "description": "Retro washed 240GSM combed cotton tee with distressed collegiate screenprint. Official University of the East (UE) collection item.",
     "descriptionHtml": "<p>Retro washed 240GSM combed cotton tee with distressed collegiate screenprint. Official University of the East (UE) collection item.</p>",
     "availableForSale": true,
-    "vendor": "PRINTING AVENUE PH",
+    "vendor": "COLLEGIATE MERCH",
     "tags": [
       "UE",
       "Shirt",
@@ -4864,7 +4864,7 @@ export const UNIVERSITY_PRODUCTS: Product[] = [
     "description": "Full-zip heavyweight fleece jacket with chenille varsity letter patches on chest and sleeve. Official University of the East (UE) collection item.",
     "descriptionHtml": "<p>Full-zip heavyweight fleece jacket with chenille varsity letter patches on chest and sleeve. Official University of the East (UE) collection item.</p>",
     "availableForSale": true,
-    "vendor": "PRINTING AVENUE PH",
+    "vendor": "COLLEGIATE MERCH",
     "tags": [
       "UE",
       "Hoodie",
@@ -4956,7 +4956,7 @@ export const UNIVERSITY_PRODUCTS: Product[] = [
     "description": "Contrast rib collar and sleeve ringer tee inspired by 90s campus aesthetics. Official University of the East (UE) collection item.",
     "descriptionHtml": "<p>Contrast rib collar and sleeve ringer tee inspired by 90s campus aesthetics. Official University of the East (UE) collection item.</p>",
     "availableForSale": true,
-    "vendor": "PRINTING AVENUE PH",
+    "vendor": "COLLEGIATE MERCH",
     "tags": [
       "UE",
       "Shirt",
@@ -5045,7 +5045,7 @@ export const UNIVERSITY_PRODUCTS: Product[] = [
     "description": "Low-profile relaxed dad hat with metal buckle strap and micro-embroidered collegiate seal. Official University of the East (UE) collection item.",
     "descriptionHtml": "<p>Low-profile relaxed dad hat with metal buckle strap and micro-embroidered collegiate seal. Official University of the East (UE) collection item.</p>",
     "availableForSale": true,
-    "vendor": "PRINTING AVENUE PH",
+    "vendor": "COLLEGIATE MERCH",
     "tags": [
       "UE",
       "Cap",
@@ -5119,7 +5119,7 @@ export const UNIVERSITY_PRODUCTS: Product[] = [
     "description": "Ultra-lightweight mesh training tank engineered for athletic performance and campus intramurals. Official University of the East (UE) collection item.",
     "descriptionHtml": "<p>Ultra-lightweight mesh training tank engineered for athletic performance and campus intramurals. Official University of the East (UE) collection item.</p>",
     "availableForSale": true,
-    "vendor": "PRINTING AVENUE PH",
+    "vendor": "COLLEGIATE MERCH",
     "tags": [
       "UE",
       "Jersey",
@@ -5208,7 +5208,7 @@ export const UNIVERSITY_PRODUCTS: Product[] = [
     "description": "Signature heavyweight brushed fleece pullover with custom chenille lettering and ribbed cuffs. Official Adamson University (ADU) collection item.",
     "descriptionHtml": "<p>Signature heavyweight brushed fleece pullover with custom chenille lettering and ribbed cuffs. Official Adamson University (ADU) collection item.</p>",
     "availableForSale": true,
-    "vendor": "PRINTING AVENUE PH",
+    "vendor": "COLLEGIATE MERCH",
     "tags": [
       "ADU",
       "Hoodie",
@@ -5301,7 +5301,7 @@ export const UNIVERSITY_PRODUCTS: Product[] = [
     "description": "260GSM carded cotton drop-shoulder streetwear tee featuring vintage typography and emblems. Official Adamson University (ADU) collection item.",
     "descriptionHtml": "<p>260GSM carded cotton drop-shoulder streetwear tee featuring vintage typography and emblems. Official Adamson University (ADU) collection item.</p>",
     "availableForSale": true,
-    "vendor": "PRINTING AVENUE PH",
+    "vendor": "COLLEGIATE MERCH",
     "tags": [
       "ADU",
       "Shirt",
@@ -5391,7 +5391,7 @@ export const UNIVERSITY_PRODUCTS: Product[] = [
     "description": "Breathable dual-mesh varsity jersey with reinforced contrast side panels and heat-pressed lettering. Official Adamson University (ADU) collection item.",
     "descriptionHtml": "<p>Breathable dual-mesh varsity jersey with reinforced contrast side panels and heat-pressed lettering. Official Adamson University (ADU) collection item.</p>",
     "availableForSale": true,
-    "vendor": "PRINTING AVENUE PH",
+    "vendor": "COLLEGIATE MERCH",
     "tags": [
       "ADU",
       "Jersey",
@@ -5484,7 +5484,7 @@ export const UNIVERSITY_PRODUCTS: Product[] = [
     "description": "Structured 6-panel wool blend cap with raised 3D monogram and classic green undervisor. Official Adamson University (ADU) collection item.",
     "descriptionHtml": "<p>Structured 6-panel wool blend cap with raised 3D monogram and classic green undervisor. Official Adamson University (ADU) collection item.</p>",
     "availableForSale": true,
-    "vendor": "PRINTING AVENUE PH",
+    "vendor": "COLLEGIATE MERCH",
     "tags": [
       "ADU",
       "Cap",
@@ -5558,7 +5558,7 @@ export const UNIVERSITY_PRODUCTS: Product[] = [
     "description": "High-density woven lanyard with matte alloy swivel clasp and breakaway safety clip. Official Adamson University (ADU) collection item.",
     "descriptionHtml": "<p>High-density woven lanyard with matte alloy swivel clasp and breakaway safety clip. Official Adamson University (ADU) collection item.</p>",
     "availableForSale": true,
-    "vendor": "PRINTING AVENUE PH",
+    "vendor": "COLLEGIATE MERCH",
     "tags": [
       "ADU",
       "Lanyard",
@@ -5632,7 +5632,7 @@ export const UNIVERSITY_PRODUCTS: Product[] = [
     "description": "Retro washed 240GSM combed cotton tee with distressed collegiate screenprint. Official Adamson University (ADU) collection item.",
     "descriptionHtml": "<p>Retro washed 240GSM combed cotton tee with distressed collegiate screenprint. Official Adamson University (ADU) collection item.</p>",
     "availableForSale": true,
-    "vendor": "PRINTING AVENUE PH",
+    "vendor": "COLLEGIATE MERCH",
     "tags": [
       "ADU",
       "Shirt",
@@ -5721,7 +5721,7 @@ export const UNIVERSITY_PRODUCTS: Product[] = [
     "description": "Full-zip heavyweight fleece jacket with chenille varsity letter patches on chest and sleeve. Official Adamson University (ADU) collection item.",
     "descriptionHtml": "<p>Full-zip heavyweight fleece jacket with chenille varsity letter patches on chest and sleeve. Official Adamson University (ADU) collection item.</p>",
     "availableForSale": true,
-    "vendor": "PRINTING AVENUE PH",
+    "vendor": "COLLEGIATE MERCH",
     "tags": [
       "ADU",
       "Hoodie",
@@ -5813,7 +5813,7 @@ export const UNIVERSITY_PRODUCTS: Product[] = [
     "description": "Contrast rib collar and sleeve ringer tee inspired by 90s campus aesthetics. Official Adamson University (ADU) collection item.",
     "descriptionHtml": "<p>Contrast rib collar and sleeve ringer tee inspired by 90s campus aesthetics. Official Adamson University (ADU) collection item.</p>",
     "availableForSale": true,
-    "vendor": "PRINTING AVENUE PH",
+    "vendor": "COLLEGIATE MERCH",
     "tags": [
       "ADU",
       "Shirt",
@@ -5902,7 +5902,7 @@ export const UNIVERSITY_PRODUCTS: Product[] = [
     "description": "Low-profile relaxed dad hat with metal buckle strap and micro-embroidered collegiate seal. Official Adamson University (ADU) collection item.",
     "descriptionHtml": "<p>Low-profile relaxed dad hat with metal buckle strap and micro-embroidered collegiate seal. Official Adamson University (ADU) collection item.</p>",
     "availableForSale": true,
-    "vendor": "PRINTING AVENUE PH",
+    "vendor": "COLLEGIATE MERCH",
     "tags": [
       "ADU",
       "Cap",
@@ -5976,7 +5976,7 @@ export const UNIVERSITY_PRODUCTS: Product[] = [
     "description": "Ultra-lightweight mesh training tank engineered for athletic performance and campus intramurals. Official Adamson University (ADU) collection item.",
     "descriptionHtml": "<p>Ultra-lightweight mesh training tank engineered for athletic performance and campus intramurals. Official Adamson University (ADU) collection item.</p>",
     "availableForSale": true,
-    "vendor": "PRINTING AVENUE PH",
+    "vendor": "COLLEGIATE MERCH",
     "tags": [
       "ADU",
       "Jersey",
@@ -6065,7 +6065,7 @@ export const UNIVERSITY_PRODUCTS: Product[] = [
     "description": "Signature heavyweight brushed fleece pullover with custom chenille lettering and ribbed cuffs. Official National University (NU) collection item.",
     "descriptionHtml": "<p>Signature heavyweight brushed fleece pullover with custom chenille lettering and ribbed cuffs. Official National University (NU) collection item.</p>",
     "availableForSale": true,
-    "vendor": "PRINTING AVENUE PH",
+    "vendor": "COLLEGIATE MERCH",
     "tags": [
       "NU",
       "Hoodie",
@@ -6158,7 +6158,7 @@ export const UNIVERSITY_PRODUCTS: Product[] = [
     "description": "260GSM carded cotton drop-shoulder streetwear tee featuring vintage typography and emblems. Official National University (NU) collection item.",
     "descriptionHtml": "<p>260GSM carded cotton drop-shoulder streetwear tee featuring vintage typography and emblems. Official National University (NU) collection item.</p>",
     "availableForSale": true,
-    "vendor": "PRINTING AVENUE PH",
+    "vendor": "COLLEGIATE MERCH",
     "tags": [
       "NU",
       "Shirt",
@@ -6248,7 +6248,7 @@ export const UNIVERSITY_PRODUCTS: Product[] = [
     "description": "Breathable dual-mesh varsity jersey with reinforced contrast side panels and heat-pressed lettering. Official National University (NU) collection item.",
     "descriptionHtml": "<p>Breathable dual-mesh varsity jersey with reinforced contrast side panels and heat-pressed lettering. Official National University (NU) collection item.</p>",
     "availableForSale": true,
-    "vendor": "PRINTING AVENUE PH",
+    "vendor": "COLLEGIATE MERCH",
     "tags": [
       "NU",
       "Jersey",
@@ -6341,7 +6341,7 @@ export const UNIVERSITY_PRODUCTS: Product[] = [
     "description": "Structured 6-panel wool blend cap with raised 3D monogram and classic green undervisor. Official National University (NU) collection item.",
     "descriptionHtml": "<p>Structured 6-panel wool blend cap with raised 3D monogram and classic green undervisor. Official National University (NU) collection item.</p>",
     "availableForSale": true,
-    "vendor": "PRINTING AVENUE PH",
+    "vendor": "COLLEGIATE MERCH",
     "tags": [
       "NU",
       "Cap",
@@ -6415,7 +6415,7 @@ export const UNIVERSITY_PRODUCTS: Product[] = [
     "description": "High-density woven lanyard with matte alloy swivel clasp and breakaway safety clip. Official National University (NU) collection item.",
     "descriptionHtml": "<p>High-density woven lanyard with matte alloy swivel clasp and breakaway safety clip. Official National University (NU) collection item.</p>",
     "availableForSale": true,
-    "vendor": "PRINTING AVENUE PH",
+    "vendor": "COLLEGIATE MERCH",
     "tags": [
       "NU",
       "Lanyard",
@@ -6489,7 +6489,7 @@ export const UNIVERSITY_PRODUCTS: Product[] = [
     "description": "Retro washed 240GSM combed cotton tee with distressed collegiate screenprint. Official National University (NU) collection item.",
     "descriptionHtml": "<p>Retro washed 240GSM combed cotton tee with distressed collegiate screenprint. Official National University (NU) collection item.</p>",
     "availableForSale": true,
-    "vendor": "PRINTING AVENUE PH",
+    "vendor": "COLLEGIATE MERCH",
     "tags": [
       "NU",
       "Shirt",
@@ -6578,7 +6578,7 @@ export const UNIVERSITY_PRODUCTS: Product[] = [
     "description": "Full-zip heavyweight fleece jacket with chenille varsity letter patches on chest and sleeve. Official National University (NU) collection item.",
     "descriptionHtml": "<p>Full-zip heavyweight fleece jacket with chenille varsity letter patches on chest and sleeve. Official National University (NU) collection item.</p>",
     "availableForSale": true,
-    "vendor": "PRINTING AVENUE PH",
+    "vendor": "COLLEGIATE MERCH",
     "tags": [
       "NU",
       "Hoodie",
@@ -6670,7 +6670,7 @@ export const UNIVERSITY_PRODUCTS: Product[] = [
     "description": "Contrast rib collar and sleeve ringer tee inspired by 90s campus aesthetics. Official National University (NU) collection item.",
     "descriptionHtml": "<p>Contrast rib collar and sleeve ringer tee inspired by 90s campus aesthetics. Official National University (NU) collection item.</p>",
     "availableForSale": true,
-    "vendor": "PRINTING AVENUE PH",
+    "vendor": "COLLEGIATE MERCH",
     "tags": [
       "NU",
       "Shirt",
@@ -6759,7 +6759,7 @@ export const UNIVERSITY_PRODUCTS: Product[] = [
     "description": "Low-profile relaxed dad hat with metal buckle strap and micro-embroidered collegiate seal. Official National University (NU) collection item.",
     "descriptionHtml": "<p>Low-profile relaxed dad hat with metal buckle strap and micro-embroidered collegiate seal. Official National University (NU) collection item.</p>",
     "availableForSale": true,
-    "vendor": "PRINTING AVENUE PH",
+    "vendor": "COLLEGIATE MERCH",
     "tags": [
       "NU",
       "Cap",
@@ -6833,7 +6833,7 @@ export const UNIVERSITY_PRODUCTS: Product[] = [
     "description": "Ultra-lightweight mesh training tank engineered for athletic performance and campus intramurals. Official National University (NU) collection item.",
     "descriptionHtml": "<p>Ultra-lightweight mesh training tank engineered for athletic performance and campus intramurals. Official National University (NU) collection item.</p>",
     "availableForSale": true,
-    "vendor": "PRINTING AVENUE PH",
+    "vendor": "COLLEGIATE MERCH",
     "tags": [
       "NU",
       "Jersey",

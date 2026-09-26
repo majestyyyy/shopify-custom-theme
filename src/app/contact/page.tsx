@@ -21,7 +21,7 @@ export default function ContactPage() {
             <span>Get in Touch</span>
           </div>
           <h1 className="text-4xl sm:text-5xl font-extrabold tracking-tight">
-            Contact <span className="text-white underline decoration-zinc-500">Printing Avenue PH</span>
+            Contact <span className="text-white underline decoration-zinc-500">Collegiate Campus Store</span>
           </h1>
           <p className="text-sm sm:text-base text-zinc-400 max-w-xl mx-auto">
             Have questions regarding sizing, custom batch orders for your university org, or delivery times? We are here to help!
@@ -42,14 +42,14 @@ export default function ContactPage() {
             </div>
 
             <div className="space-y-4">
-              <div className="flex items-start gap-4 p-4 rounded-2xl bg-zinc-50 border border-zinc-200">
-                <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-black text-white flex-shrink-0">
+              <div className="flex items-start gap-4 p-4 rounded-none bg-zinc-50 border border-zinc-200">
+                <div className="flex h-10 w-10 items-center justify-center bg-black text-white flex-shrink-0">
                   <Mail className="h-5 w-5" />
                 </div>
                 <div>
                   <h4 className="text-sm font-bold text-zinc-950">Email Us</h4>
-                  <p className="text-xs text-zinc-600 mt-0.5">support@printingavenueph.com</p>
-                  <p className="text-xs text-zinc-600">custom@printingavenueph.com</p>
+                  <p className="text-xs text-zinc-600 mt-0.5">support@campusmerch.ph</p>
+                  <p className="text-xs text-zinc-600">custom@campusmerch.ph</p>
                 </div>
               </div>
 
@@ -97,7 +97,7 @@ export default function ContactPage() {
                 </div>
                 <h3 className="text-2xl font-bold text-zinc-950">Message Received!</h3>
                 <p className="text-sm text-zinc-600 max-w-md mx-auto">
-                  Thank you for contacting Printing Avenue PH. Our campus representative will get back to you within 24 hours.
+                  Thank you for reaching out. Our campus representative will get back to you within 24 hours.
                 </p>
                 <button
                   onClick={() => setSubmitted(false)}
