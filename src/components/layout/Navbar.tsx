@@ -3,7 +3,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { ShoppingBag, Menu, X, ChevronDown, Sparkles } from "lucide-react";
+import { ShoppingBag, Menu, X, ChevronDown, Sparkles, Shirt, Layers, Crown, Trophy, Tag } from "lucide-react";
 import { useCart } from "@/context/cart-context";
 
 const UNIVERSITIES = [
@@ -18,11 +18,11 @@ const UNIVERSITIES = [
 ];
 
 const CATEGORIES = [
-  { name: "Shirt", handle: "shirt", icon: "👕" },
-  { name: "Hoodie", handle: "hoodie", icon: "🧥" },
-  { name: "Cap", handle: "cap", icon: "🧢" },
-  { name: "Jersey", handle: "jersey", icon: "🏀" },
-  { name: "Lanyard", handle: "lanyard", icon: "🏷️" },
+  { name: "Shirt", handle: "shirt", Icon: Shirt },
+  { name: "Hoodie", handle: "hoodie", Icon: Layers },
+  { name: "Cap", handle: "cap", Icon: Crown },
+  { name: "Jersey", handle: "jersey", Icon: Trophy },
+  { name: "Lanyard", handle: "lanyard", Icon: Tag },
 ];
 
 export default function Navbar() {
@@ -160,17 +160,20 @@ export default function Navbar() {
                     Select Category
                   </div>
                   <div className="grid grid-cols-1 gap-0.5">
-                    {CATEGORIES.map((cat) => (
-                      <Link
-                        key={cat.name}
-                        href={`/collections/${cat.handle}`}
-                        onClick={() => setActiveDropdown(null)}
-                        className="flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-medium text-zinc-300 hover:bg-zinc-900 hover:text-white transition"
-                      >
-                        <span className="text-base">{cat.icon}</span>
-                        <span className="font-semibold text-white">{cat.name}</span>
-                      </Link>
-                    ))}
+                    {CATEGORIES.map((cat) => {
+                      const CategoryIcon = cat.Icon;
+                      return (
+                        <Link
+                          key={cat.name}
+                          href={`/collections/${cat.handle}`}
+                          onClick={() => setActiveDropdown(null)}
+                          className="flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-medium text-zinc-300 hover:bg-zinc-900 hover:text-white transition group"
+                        >
+                          <CategoryIcon className="h-4 w-4 text-zinc-400 group-hover:text-white transition" />
+                          <span className="font-semibold text-white">{cat.name}</span>
+                        </Link>
+                      );
+                    })}
                   </div>
                 </div>
               )}
@@ -259,17 +262,20 @@ export default function Navbar() {
                 </button>
                 {mobileCatOpen && (
                   <div className="grid grid-cols-2 gap-1.5 pt-2 pl-1">
-                    {CATEGORIES.map((cat) => (
-                      <Link
-                        key={cat.name}
-                        href={`/collections/${cat.handle}`}
-                        onClick={() => setMobileMenuOpen(false)}
-                        className="rounded-xl bg-zinc-900 px-3 py-2 text-xs font-semibold text-zinc-300 hover:text-white hover:bg-zinc-800 flex items-center gap-1.5 border border-zinc-800"
-                      >
-                        <span>{cat.icon}</span>
-                        <span>{cat.name}</span>
-                      </Link>
-                    ))}
+                    {CATEGORIES.map((cat) => {
+                      const CategoryIcon = cat.Icon;
+                      return (
+                        <Link
+                          key={cat.name}
+                          href={`/collections/${cat.handle}`}
+                          onClick={() => setMobileMenuOpen(false)}
+                          className="rounded-xl bg-zinc-900 px-3 py-2 text-xs font-semibold text-zinc-300 hover:text-white hover:bg-zinc-800 flex items-center gap-2 border border-zinc-800"
+                        >
+                          <CategoryIcon className="h-3.5 w-3.5 text-zinc-400" />
+                          <span>{cat.name}</span>
+                        </Link>
+                      );
+                    })}
                   </div>
                 )}
               </div>

@@ -2,15 +2,26 @@ import React from "react";
 import { notFound } from "next/navigation";
 import { Metadata } from "next";
 import { getProductByHandle, getProducts } from "@/lib/shopify/client";
+import { UNIVERSITY_PRODUCTS } from "@/lib/shopify/mock-data";
 import ProductDetails from "@/components/product/ProductDetails";
 import ProductGrid from "@/components/product/ProductGrid";
 
-export const revalidate = 60;
+export const dynamicParams = false;
 
 export async function generateStaticParams() {
-  const products = await getProducts({ first: 100 });
-  return products.map((product) => ({
-    handle: product.handle,
+  const products = await getProducts({ first: 250 });
+  const handles = new Set<string>();
+
+  products.forEach((p) => {
+    if (p.handle) handles.add(p.handle);
+  });
+
+  UNIVERSITY_PRODUCTS.forEach((p) => {
+    if (p.handle) handles.add(p.handle);
+  });
+
+  return Array.from(handles).map((handle) => ({
+    handle,
   }));
 }
 

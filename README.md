@@ -4,7 +4,7 @@ A high-performance, modern headless e-commerce storefront built with **Next.js (
 
 ---
 
-## ⚡ Features
+## Features
 
 - **Next.js App Router & Server Components:** Server-side rendering, ISR caching, and SEO optimization out of the box.
 - **Shopify Storefront GraphQL Integration:** Fully typed queries for products, collections, variants, and real-time inventory.
@@ -15,7 +15,7 @@ A high-performance, modern headless e-commerce storefront built with **Next.js (
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Environment Variables
 
@@ -45,7 +45,7 @@ NEXT_PUBLIC_SHOPIFY_API_VERSION="2024-10"
 
 ---
 
-## 🛠️ Development & Build Commands
+## Development & Build Commands
 
 ```bash
 # Start the local development server
@@ -63,7 +63,7 @@ npm run lint
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 ├── .env.local                    # Shopify Storefront API credentials

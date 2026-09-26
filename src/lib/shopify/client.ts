@@ -93,10 +93,14 @@ export async function getProducts(options: {
   });
 
   const liveProducts = data?.products?.edges?.map((edge) => edge.node) || [];
-  if (liveProducts.length > 0) return liveProducts;
+  const combined = [...liveProducts];
+  UNIVERSITY_PRODUCTS.forEach((mock) => {
+    if (!combined.some((p) => p.handle.toLowerCase() === mock.handle.toLowerCase())) {
+      combined.push(mock);
+    }
+  });
 
-  // University Merchandise Catalog Fallback
-  return UNIVERSITY_PRODUCTS.slice(0, options.first || 20);
+  return combined.slice(0, options?.first || combined.length);
 }
 
 export async function getProductByHandle(handle: string): Promise<Product | null> {
@@ -111,7 +115,7 @@ export async function getProductByHandle(handle: string): Promise<Product | null
   return UNIVERSITY_PRODUCTS.find((p) => p.handle === handle) || null;
 }
 
-export async function getCollections(first: number = 10): Promise<Collection[]> {
+export async function getCollections(first: number = 50): Promise<Collection[]> {
   const data = await shopifyFetch<{
     collections: { edges: Array<{ node: Collection }> };
   }>({
@@ -120,12 +124,17 @@ export async function getCollections(first: number = 10): Promise<Collection[]> 
   });
 
   const liveCollections = data?.collections?.edges?.map((edge) => edge.node) || [];
-  if (liveCollections.length > 0) return liveCollections;
+  const combined = [...liveCollections];
+  UNIVERSITY_COLLECTIONS.forEach((mock) => {
+    if (!combined.some((c) => c.handle.toLowerCase() === mock.handle.toLowerCase())) {
+      combined.push(mock);
+    }
+  });
 
-  return UNIVERSITY_COLLECTIONS.slice(0, first);
+  return combined.slice(0, first);
 }
 
-export async function getCollectionProducts(handle: string, first: number = 20): Promise<{
+export async function getCollectionProducts(handle: string, first: number = 100): Promise<{
   collection: Collection | null;
   products: Product[];
 }> {

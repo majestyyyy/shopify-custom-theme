@@ -6914,5 +6914,2143 @@ export const UNIVERSITY_PRODUCTS: Product[] = [
         }
       ]
     }
+  },
+  {
+    "id": "prod-ue-lanyard-2",
+    "handle": "ue-jacquard-lanyard",
+    "title": "UE Red Warriors Reversible Dual-Tone Jacquard Lanyard",
+    "description": "High-density double-sided woven jacquard ID lanyard featuring University of the East (UE) typography and crest, with heavy-duty metal lobster claw clasp and quick-release buckle.",
+    "descriptionHtml": "<p>High-density double-sided woven jacquard ID lanyard featuring University of the East (UE) typography and crest, with heavy-duty metal lobster claw clasp and quick-release buckle.</p>",
+    "availableForSale": true,
+    "vendor": "COLLEGIATE MERCH",
+    "tags": [
+      "UE",
+      "Lanyard",
+      "Collegiate"
+    ],
+    "featuredImage": {
+      "url": "",
+      "altText": "UE Red Warriors Reversible Dual-Tone Jacquard Lanyard"
+    },
+    "images": {
+      "edges": []
+    },
+    "priceRange": {
+      "minVariantPrice": {
+        "amount": "280.00",
+        "currencyCode": "PHP"
+      },
+      "maxVariantPrice": {
+        "amount": "280.00",
+        "currencyCode": "PHP"
+      }
+    },
+    "compareAtPriceRange": {
+      "minVariantPrice": {
+        "amount": "350.00",
+        "currencyCode": "PHP"
+      },
+      "maxVariantPrice": {
+        "amount": "350.00",
+        "currencyCode": "PHP"
+      }
+    },
+    "options": [
+      {
+        "id": "opt-ue-jacquard-lanyard-color",
+        "name": "Color",
+        "values": [
+          "Red & White"
+        ]
+      },
+      {
+        "id": "opt-ue-jacquard-lanyard-size",
+        "name": "Size",
+        "values": [
+          "Standard (1-Inch)"
+        ]
+      }
+    ],
+    "variants": {
+      "edges": [
+        {
+          "node": {
+            "id": "var-ue-jacquard-lanyard-default",
+            "title": "Red & White / Standard",
+            "availableForSale": true,
+            "selectedOptions": [
+              {
+                "name": "Color",
+                "value": "Red & White"
+              },
+              {
+                "name": "Size",
+                "value": "Standard (1-Inch)"
+              }
+            ],
+            "price": {
+              "amount": "280.00",
+              "currencyCode": "PHP"
+            },
+            "compareAtPrice": {
+              "amount": "350.00",
+              "currencyCode": "PHP"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "prod-feu-lanyard-2",
+    "handle": "feu-jacquard-lanyard",
+    "title": "FEU Tamaraws Reversible Dual-Tone Jacquard Lanyard",
+    "description": "High-density double-sided woven jacquard ID lanyard featuring Far Eastern University (FEU) typography and crest, with heavy-duty metal lobster claw clasp and quick-release buckle.",
+    "descriptionHtml": "<p>High-density double-sided woven jacquard ID lanyard featuring Far Eastern University (FEU) typography and crest, with heavy-duty metal lobster claw clasp and quick-release buckle.</p>",
+    "availableForSale": true,
+    "vendor": "COLLEGIATE MERCH",
+    "tags": [
+      "FEU",
+      "Lanyard",
+      "Collegiate"
+    ],
+    "featuredImage": {
+      "url": "",
+      "altText": "FEU Tamaraws Reversible Dual-Tone Jacquard Lanyard"
+    },
+    "images": {
+      "edges": []
+    },
+    "priceRange": {
+      "minVariantPrice": {
+        "amount": "280.00",
+        "currencyCode": "PHP"
+      },
+      "maxVariantPrice": {
+        "amount": "280.00",
+        "currencyCode": "PHP"
+      }
+    },
+    "compareAtPriceRange": {
+      "minVariantPrice": {
+        "amount": "350.00",
+        "currencyCode": "PHP"
+      },
+      "maxVariantPrice": {
+        "amount": "350.00",
+        "currencyCode": "PHP"
+      }
+    },
+    "options": [
+      {
+        "id": "opt-feu-jacquard-lanyard-color",
+        "name": "Color",
+        "values": [
+          "Green & Gold"
+        ]
+      },
+      {
+        "id": "opt-feu-jacquard-lanyard-size",
+        "name": "Size",
+        "values": [
+          "Standard (1-Inch)"
+        ]
+      }
+    ],
+    "variants": {
+      "edges": [
+        {
+          "node": {
+            "id": "var-feu-jacquard-lanyard-default",
+            "title": "Green & Gold / Standard",
+            "availableForSale": true,
+            "selectedOptions": [
+              {
+                "name": "Color",
+                "value": "Green & Gold"
+              },
+              {
+                "name": "Size",
+                "value": "Standard (1-Inch)"
+              }
+            ],
+            "price": {
+              "amount": "280.00",
+              "currencyCode": "PHP"
+            },
+            "compareAtPrice": {
+              "amount": "350.00",
+              "currencyCode": "PHP"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "prod-ust-lanyard-2",
+    "handle": "ust-jacquard-lanyard",
+    "title": "UST Growling Tigers Reversible Dual-Tone Jacquard Lanyard",
+    "description": "High-density double-sided woven jacquard ID lanyard featuring University of Santo Tomas (UST) typography and crest, with heavy-duty metal lobster claw clasp and quick-release buckle.",
+    "descriptionHtml": "<p>High-density double-sided woven jacquard ID lanyard featuring University of Santo Tomas (UST) typography and crest, with heavy-duty metal lobster claw clasp and quick-release buckle.</p>",
+    "availableForSale": true,
+    "vendor": "COLLEGIATE MERCH",
+    "tags": [
+      "UST",
+      "Lanyard",
+      "Collegiate"
+    ],
+    "featuredImage": {
+      "url": "",
+      "altText": "UST Growling Tigers Reversible Dual-Tone Jacquard Lanyard"
+    },
+    "images": {
+      "edges": []
+    },
+    "priceRange": {
+      "minVariantPrice": {
+        "amount": "280.00",
+        "currencyCode": "PHP"
+      },
+      "maxVariantPrice": {
+        "amount": "280.00",
+        "currencyCode": "PHP"
+      }
+    },
+    "compareAtPriceRange": {
+      "minVariantPrice": {
+        "amount": "350.00",
+        "currencyCode": "PHP"
+      },
+      "maxVariantPrice": {
+        "amount": "350.00",
+        "currencyCode": "PHP"
+      }
+    },
+    "options": [
+      {
+        "id": "opt-ust-jacquard-lanyard-color",
+        "name": "Color",
+        "values": [
+          "Gold & Black"
+        ]
+      },
+      {
+        "id": "opt-ust-jacquard-lanyard-size",
+        "name": "Size",
+        "values": [
+          "Standard (1-Inch)"
+        ]
+      }
+    ],
+    "variants": {
+      "edges": [
+        {
+          "node": {
+            "id": "var-ust-jacquard-lanyard-default",
+            "title": "Gold & Black / Standard",
+            "availableForSale": true,
+            "selectedOptions": [
+              {
+                "name": "Color",
+                "value": "Gold & Black"
+              },
+              {
+                "name": "Size",
+                "value": "Standard (1-Inch)"
+              }
+            ],
+            "price": {
+              "amount": "280.00",
+              "currencyCode": "PHP"
+            },
+            "compareAtPrice": {
+              "amount": "350.00",
+              "currencyCode": "PHP"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "prod-dlsu-lanyard-2",
+    "handle": "dlsu-jacquard-lanyard",
+    "title": "DLSU Green Archers Reversible Dual-Tone Jacquard Lanyard",
+    "description": "High-density double-sided woven jacquard ID lanyard featuring De La Salle University (DLSU) typography and crest, with heavy-duty metal lobster claw clasp and quick-release buckle.",
+    "descriptionHtml": "<p>High-density double-sided woven jacquard ID lanyard featuring De La Salle University (DLSU) typography and crest, with heavy-duty metal lobster claw clasp and quick-release buckle.</p>",
+    "availableForSale": true,
+    "vendor": "COLLEGIATE MERCH",
+    "tags": [
+      "DLSU",
+      "Lanyard",
+      "Collegiate"
+    ],
+    "featuredImage": {
+      "url": "",
+      "altText": "DLSU Green Archers Reversible Dual-Tone Jacquard Lanyard"
+    },
+    "images": {
+      "edges": []
+    },
+    "priceRange": {
+      "minVariantPrice": {
+        "amount": "280.00",
+        "currencyCode": "PHP"
+      },
+      "maxVariantPrice": {
+        "amount": "280.00",
+        "currencyCode": "PHP"
+      }
+    },
+    "compareAtPriceRange": {
+      "minVariantPrice": {
+        "amount": "350.00",
+        "currencyCode": "PHP"
+      },
+      "maxVariantPrice": {
+        "amount": "350.00",
+        "currencyCode": "PHP"
+      }
+    },
+    "options": [
+      {
+        "id": "opt-dlsu-jacquard-lanyard-color",
+        "name": "Color",
+        "values": [
+          "Green & White"
+        ]
+      },
+      {
+        "id": "opt-dlsu-jacquard-lanyard-size",
+        "name": "Size",
+        "values": [
+          "Standard (1-Inch)"
+        ]
+      }
+    ],
+    "variants": {
+      "edges": [
+        {
+          "node": {
+            "id": "var-dlsu-jacquard-lanyard-default",
+            "title": "Green & White / Standard",
+            "availableForSale": true,
+            "selectedOptions": [
+              {
+                "name": "Color",
+                "value": "Green & White"
+              },
+              {
+                "name": "Size",
+                "value": "Standard (1-Inch)"
+              }
+            ],
+            "price": {
+              "amount": "280.00",
+              "currencyCode": "PHP"
+            },
+            "compareAtPrice": {
+              "amount": "350.00",
+              "currencyCode": "PHP"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "prod-adu-lanyard-2",
+    "handle": "adu-jacquard-lanyard",
+    "title": "ADU Soaring Falcons Reversible Dual-Tone Jacquard Lanyard",
+    "description": "High-density double-sided woven jacquard ID lanyard featuring Adamson University (ADU) typography and crest, with heavy-duty metal lobster claw clasp and quick-release buckle.",
+    "descriptionHtml": "<p>High-density double-sided woven jacquard ID lanyard featuring Adamson University (ADU) typography and crest, with heavy-duty metal lobster claw clasp and quick-release buckle.</p>",
+    "availableForSale": true,
+    "vendor": "COLLEGIATE MERCH",
+    "tags": [
+      "ADU",
+      "Lanyard",
+      "Collegiate"
+    ],
+    "featuredImage": {
+      "url": "",
+      "altText": "ADU Soaring Falcons Reversible Dual-Tone Jacquard Lanyard"
+    },
+    "images": {
+      "edges": []
+    },
+    "priceRange": {
+      "minVariantPrice": {
+        "amount": "280.00",
+        "currencyCode": "PHP"
+      },
+      "maxVariantPrice": {
+        "amount": "280.00",
+        "currencyCode": "PHP"
+      }
+    },
+    "compareAtPriceRange": {
+      "minVariantPrice": {
+        "amount": "350.00",
+        "currencyCode": "PHP"
+      },
+      "maxVariantPrice": {
+        "amount": "350.00",
+        "currencyCode": "PHP"
+      }
+    },
+    "options": [
+      {
+        "id": "opt-adu-jacquard-lanyard-color",
+        "name": "Color",
+        "values": [
+          "Blue & White"
+        ]
+      },
+      {
+        "id": "opt-adu-jacquard-lanyard-size",
+        "name": "Size",
+        "values": [
+          "Standard (1-Inch)"
+        ]
+      }
+    ],
+    "variants": {
+      "edges": [
+        {
+          "node": {
+            "id": "var-adu-jacquard-lanyard-default",
+            "title": "Blue & White / Standard",
+            "availableForSale": true,
+            "selectedOptions": [
+              {
+                "name": "Color",
+                "value": "Blue & White"
+              },
+              {
+                "name": "Size",
+                "value": "Standard (1-Inch)"
+              }
+            ],
+            "price": {
+              "amount": "280.00",
+              "currencyCode": "PHP"
+            },
+            "compareAtPrice": {
+              "amount": "350.00",
+              "currencyCode": "PHP"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "prod-admu-lanyard-2",
+    "handle": "admu-jacquard-lanyard",
+    "title": "ADMU Blue Eagles Reversible Dual-Tone Jacquard Lanyard",
+    "description": "High-density double-sided woven jacquard ID lanyard featuring Ateneo de Manila University (ADMU) typography and crest, with heavy-duty metal lobster claw clasp and quick-release buckle.",
+    "descriptionHtml": "<p>High-density double-sided woven jacquard ID lanyard featuring Ateneo de Manila University (ADMU) typography and crest, with heavy-duty metal lobster claw clasp and quick-release buckle.</p>",
+    "availableForSale": true,
+    "vendor": "COLLEGIATE MERCH",
+    "tags": [
+      "ADMU",
+      "Lanyard",
+      "Collegiate"
+    ],
+    "featuredImage": {
+      "url": "",
+      "altText": "ADMU Blue Eagles Reversible Dual-Tone Jacquard Lanyard"
+    },
+    "images": {
+      "edges": []
+    },
+    "priceRange": {
+      "minVariantPrice": {
+        "amount": "280.00",
+        "currencyCode": "PHP"
+      },
+      "maxVariantPrice": {
+        "amount": "280.00",
+        "currencyCode": "PHP"
+      }
+    },
+    "compareAtPriceRange": {
+      "minVariantPrice": {
+        "amount": "350.00",
+        "currencyCode": "PHP"
+      },
+      "maxVariantPrice": {
+        "amount": "350.00",
+        "currencyCode": "PHP"
+      }
+    },
+    "options": [
+      {
+        "id": "opt-admu-jacquard-lanyard-color",
+        "name": "Color",
+        "values": [
+          "Blue & White"
+        ]
+      },
+      {
+        "id": "opt-admu-jacquard-lanyard-size",
+        "name": "Size",
+        "values": [
+          "Standard (1-Inch)"
+        ]
+      }
+    ],
+    "variants": {
+      "edges": [
+        {
+          "node": {
+            "id": "var-admu-jacquard-lanyard-default",
+            "title": "Blue & White / Standard",
+            "availableForSale": true,
+            "selectedOptions": [
+              {
+                "name": "Color",
+                "value": "Blue & White"
+              },
+              {
+                "name": "Size",
+                "value": "Standard (1-Inch)"
+              }
+            ],
+            "price": {
+              "amount": "280.00",
+              "currencyCode": "PHP"
+            },
+            "compareAtPrice": {
+              "amount": "350.00",
+              "currencyCode": "PHP"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "prod-up-lanyard-2",
+    "handle": "up-jacquard-lanyard",
+    "title": "UP Fighting Maroons Reversible Dual-Tone Jacquard Lanyard",
+    "description": "High-density double-sided woven jacquard ID lanyard featuring University of the Philippines (UP) typography and crest, with heavy-duty metal lobster claw clasp and quick-release buckle.",
+    "descriptionHtml": "<p>High-density double-sided woven jacquard ID lanyard featuring University of the Philippines (UP) typography and crest, with heavy-duty metal lobster claw clasp and quick-release buckle.</p>",
+    "availableForSale": true,
+    "vendor": "COLLEGIATE MERCH",
+    "tags": [
+      "UP",
+      "Lanyard",
+      "Collegiate"
+    ],
+    "featuredImage": {
+      "url": "",
+      "altText": "UP Fighting Maroons Reversible Dual-Tone Jacquard Lanyard"
+    },
+    "images": {
+      "edges": []
+    },
+    "priceRange": {
+      "minVariantPrice": {
+        "amount": "280.00",
+        "currencyCode": "PHP"
+      },
+      "maxVariantPrice": {
+        "amount": "280.00",
+        "currencyCode": "PHP"
+      }
+    },
+    "compareAtPriceRange": {
+      "minVariantPrice": {
+        "amount": "350.00",
+        "currencyCode": "PHP"
+      },
+      "maxVariantPrice": {
+        "amount": "350.00",
+        "currencyCode": "PHP"
+      }
+    },
+    "options": [
+      {
+        "id": "opt-up-jacquard-lanyard-color",
+        "name": "Color",
+        "values": [
+          "Maroon & Forest Green"
+        ]
+      },
+      {
+        "id": "opt-up-jacquard-lanyard-size",
+        "name": "Size",
+        "values": [
+          "Standard (1-Inch)"
+        ]
+      }
+    ],
+    "variants": {
+      "edges": [
+        {
+          "node": {
+            "id": "var-up-jacquard-lanyard-default",
+            "title": "Maroon & Forest Green / Standard",
+            "availableForSale": true,
+            "selectedOptions": [
+              {
+                "name": "Color",
+                "value": "Maroon & Forest Green"
+              },
+              {
+                "name": "Size",
+                "value": "Standard (1-Inch)"
+              }
+            ],
+            "price": {
+              "amount": "280.00",
+              "currencyCode": "PHP"
+            },
+            "compareAtPrice": {
+              "amount": "350.00",
+              "currencyCode": "PHP"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "prod-nu-lanyard-2",
+    "handle": "nu-jacquard-lanyard",
+    "title": "NU Bulldogs Reversible Dual-Tone Jacquard Lanyard",
+    "description": "High-density double-sided woven jacquard ID lanyard featuring National University (NU) typography and crest, with heavy-duty metal lobster claw clasp and quick-release buckle.",
+    "descriptionHtml": "<p>High-density double-sided woven jacquard ID lanyard featuring National University (NU) typography and crest, with heavy-duty metal lobster claw clasp and quick-release buckle.</p>",
+    "availableForSale": true,
+    "vendor": "COLLEGIATE MERCH",
+    "tags": [
+      "NU",
+      "Lanyard",
+      "Collegiate"
+    ],
+    "featuredImage": {
+      "url": "",
+      "altText": "NU Bulldogs Reversible Dual-Tone Jacquard Lanyard"
+    },
+    "images": {
+      "edges": []
+    },
+    "priceRange": {
+      "minVariantPrice": {
+        "amount": "280.00",
+        "currencyCode": "PHP"
+      },
+      "maxVariantPrice": {
+        "amount": "280.00",
+        "currencyCode": "PHP"
+      }
+    },
+    "compareAtPriceRange": {
+      "minVariantPrice": {
+        "amount": "350.00",
+        "currencyCode": "PHP"
+      },
+      "maxVariantPrice": {
+        "amount": "350.00",
+        "currencyCode": "PHP"
+      }
+    },
+    "options": [
+      {
+        "id": "opt-nu-jacquard-lanyard-color",
+        "name": "Color",
+        "values": [
+          "Navy Blue & Gold"
+        ]
+      },
+      {
+        "id": "opt-nu-jacquard-lanyard-size",
+        "name": "Size",
+        "values": [
+          "Standard (1-Inch)"
+        ]
+      }
+    ],
+    "variants": {
+      "edges": [
+        {
+          "node": {
+            "id": "var-nu-jacquard-lanyard-default",
+            "title": "Navy Blue & Gold / Standard",
+            "availableForSale": true,
+            "selectedOptions": [
+              {
+                "name": "Color",
+                "value": "Navy Blue & Gold"
+              },
+              {
+                "name": "Size",
+                "value": "Standard (1-Inch)"
+              }
+            ],
+            "price": {
+              "amount": "280.00",
+              "currencyCode": "PHP"
+            },
+            "compareAtPrice": {
+              "amount": "350.00",
+              "currencyCode": "PHP"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "prod-flagship-shirt-1",
+    "handle": "collegiate-heritage-heavyweight-tee",
+    "title": "Collegiate Heritage Heavyweight 260GSM Box-Fit Tee",
+    "description": "Premium 260 GSM carded combed cotton box-fit t-shirt with ribbed crew neck and minimal arch collegiate typography.",
+    "descriptionHtml": "<p>Premium 260 GSM carded combed cotton box-fit t-shirt with ribbed crew neck and minimal arch collegiate typography.</p>",
+    "availableForSale": true,
+    "vendor": "COLLEGIATE MERCH",
+    "tags": [
+      "Shirt",
+      "Collegiate",
+      "Featured"
+    ],
+    "featuredImage": {
+      "url": "",
+      "altText": "Collegiate Heritage Heavyweight 260GSM Box-Fit Tee"
+    },
+    "images": {
+      "edges": []
+    },
+    "priceRange": {
+      "minVariantPrice": {
+        "amount": "750.00",
+        "currencyCode": "PHP"
+      },
+      "maxVariantPrice": {
+        "amount": "750.00",
+        "currencyCode": "PHP"
+      }
+    },
+    "compareAtPriceRange": {
+      "minVariantPrice": {
+        "amount": "890.00",
+        "currencyCode": "PHP"
+      },
+      "maxVariantPrice": {
+        "amount": "890.00",
+        "currencyCode": "PHP"
+      }
+    },
+    "options": [
+      {
+        "id": "opt-collegiate-heritage-heavyweight-tee-color",
+        "name": "Color",
+        "values": [
+          "Washed Black",
+          "Vintage White",
+          "Heather Grey"
+        ]
+      },
+      {
+        "id": "opt-collegiate-heritage-heavyweight-tee-size",
+        "name": "Size",
+        "values": [
+          "S",
+          "M",
+          "L",
+          "XL",
+          "2XL"
+        ]
+      }
+    ],
+    "variants": {
+      "edges": [
+        {
+          "node": {
+            "id": "var-collegiate-heritage-heavyweight-tee-washed-black-s",
+            "title": "Washed Black / S",
+            "availableForSale": true,
+            "selectedOptions": [
+              {
+                "name": "Color",
+                "value": "Washed Black"
+              },
+              {
+                "name": "Size",
+                "value": "S"
+              }
+            ],
+            "price": {
+              "amount": "750.00",
+              "currencyCode": "PHP"
+            },
+            "compareAtPrice": {
+              "amount": "890.00",
+              "currencyCode": "PHP"
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "var-collegiate-heritage-heavyweight-tee-washed-black-m",
+            "title": "Washed Black / M",
+            "availableForSale": true,
+            "selectedOptions": [
+              {
+                "name": "Color",
+                "value": "Washed Black"
+              },
+              {
+                "name": "Size",
+                "value": "M"
+              }
+            ],
+            "price": {
+              "amount": "750.00",
+              "currencyCode": "PHP"
+            },
+            "compareAtPrice": {
+              "amount": "890.00",
+              "currencyCode": "PHP"
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "var-collegiate-heritage-heavyweight-tee-washed-black-l",
+            "title": "Washed Black / L",
+            "availableForSale": true,
+            "selectedOptions": [
+              {
+                "name": "Color",
+                "value": "Washed Black"
+              },
+              {
+                "name": "Size",
+                "value": "L"
+              }
+            ],
+            "price": {
+              "amount": "750.00",
+              "currencyCode": "PHP"
+            },
+            "compareAtPrice": {
+              "amount": "890.00",
+              "currencyCode": "PHP"
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "var-collegiate-heritage-heavyweight-tee-washed-black-xl",
+            "title": "Washed Black / XL",
+            "availableForSale": true,
+            "selectedOptions": [
+              {
+                "name": "Color",
+                "value": "Washed Black"
+              },
+              {
+                "name": "Size",
+                "value": "XL"
+              }
+            ],
+            "price": {
+              "amount": "750.00",
+              "currencyCode": "PHP"
+            },
+            "compareAtPrice": {
+              "amount": "890.00",
+              "currencyCode": "PHP"
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "var-collegiate-heritage-heavyweight-tee-washed-black-2xl",
+            "title": "Washed Black / 2XL",
+            "availableForSale": true,
+            "selectedOptions": [
+              {
+                "name": "Color",
+                "value": "Washed Black"
+              },
+              {
+                "name": "Size",
+                "value": "2XL"
+              }
+            ],
+            "price": {
+              "amount": "750.00",
+              "currencyCode": "PHP"
+            },
+            "compareAtPrice": {
+              "amount": "890.00",
+              "currencyCode": "PHP"
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "var-collegiate-heritage-heavyweight-tee-vintage-white-s",
+            "title": "Vintage White / S",
+            "availableForSale": true,
+            "selectedOptions": [
+              {
+                "name": "Color",
+                "value": "Vintage White"
+              },
+              {
+                "name": "Size",
+                "value": "S"
+              }
+            ],
+            "price": {
+              "amount": "750.00",
+              "currencyCode": "PHP"
+            },
+            "compareAtPrice": {
+              "amount": "890.00",
+              "currencyCode": "PHP"
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "var-collegiate-heritage-heavyweight-tee-vintage-white-m",
+            "title": "Vintage White / M",
+            "availableForSale": true,
+            "selectedOptions": [
+              {
+                "name": "Color",
+                "value": "Vintage White"
+              },
+              {
+                "name": "Size",
+                "value": "M"
+              }
+            ],
+            "price": {
+              "amount": "750.00",
+              "currencyCode": "PHP"
+            },
+            "compareAtPrice": {
+              "amount": "890.00",
+              "currencyCode": "PHP"
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "var-collegiate-heritage-heavyweight-tee-vintage-white-l",
+            "title": "Vintage White / L",
+            "availableForSale": true,
+            "selectedOptions": [
+              {
+                "name": "Color",
+                "value": "Vintage White"
+              },
+              {
+                "name": "Size",
+                "value": "L"
+              }
+            ],
+            "price": {
+              "amount": "750.00",
+              "currencyCode": "PHP"
+            },
+            "compareAtPrice": {
+              "amount": "890.00",
+              "currencyCode": "PHP"
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "var-collegiate-heritage-heavyweight-tee-vintage-white-xl",
+            "title": "Vintage White / XL",
+            "availableForSale": true,
+            "selectedOptions": [
+              {
+                "name": "Color",
+                "value": "Vintage White"
+              },
+              {
+                "name": "Size",
+                "value": "XL"
+              }
+            ],
+            "price": {
+              "amount": "750.00",
+              "currencyCode": "PHP"
+            },
+            "compareAtPrice": {
+              "amount": "890.00",
+              "currencyCode": "PHP"
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "var-collegiate-heritage-heavyweight-tee-vintage-white-2xl",
+            "title": "Vintage White / 2XL",
+            "availableForSale": true,
+            "selectedOptions": [
+              {
+                "name": "Color",
+                "value": "Vintage White"
+              },
+              {
+                "name": "Size",
+                "value": "2XL"
+              }
+            ],
+            "price": {
+              "amount": "750.00",
+              "currencyCode": "PHP"
+            },
+            "compareAtPrice": {
+              "amount": "890.00",
+              "currencyCode": "PHP"
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "var-collegiate-heritage-heavyweight-tee-heather-grey-s",
+            "title": "Heather Grey / S",
+            "availableForSale": true,
+            "selectedOptions": [
+              {
+                "name": "Color",
+                "value": "Heather Grey"
+              },
+              {
+                "name": "Size",
+                "value": "S"
+              }
+            ],
+            "price": {
+              "amount": "750.00",
+              "currencyCode": "PHP"
+            },
+            "compareAtPrice": {
+              "amount": "890.00",
+              "currencyCode": "PHP"
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "var-collegiate-heritage-heavyweight-tee-heather-grey-m",
+            "title": "Heather Grey / M",
+            "availableForSale": true,
+            "selectedOptions": [
+              {
+                "name": "Color",
+                "value": "Heather Grey"
+              },
+              {
+                "name": "Size",
+                "value": "M"
+              }
+            ],
+            "price": {
+              "amount": "750.00",
+              "currencyCode": "PHP"
+            },
+            "compareAtPrice": {
+              "amount": "890.00",
+              "currencyCode": "PHP"
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "var-collegiate-heritage-heavyweight-tee-heather-grey-l",
+            "title": "Heather Grey / L",
+            "availableForSale": true,
+            "selectedOptions": [
+              {
+                "name": "Color",
+                "value": "Heather Grey"
+              },
+              {
+                "name": "Size",
+                "value": "L"
+              }
+            ],
+            "price": {
+              "amount": "750.00",
+              "currencyCode": "PHP"
+            },
+            "compareAtPrice": {
+              "amount": "890.00",
+              "currencyCode": "PHP"
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "var-collegiate-heritage-heavyweight-tee-heather-grey-xl",
+            "title": "Heather Grey / XL",
+            "availableForSale": true,
+            "selectedOptions": [
+              {
+                "name": "Color",
+                "value": "Heather Grey"
+              },
+              {
+                "name": "Size",
+                "value": "XL"
+              }
+            ],
+            "price": {
+              "amount": "750.00",
+              "currencyCode": "PHP"
+            },
+            "compareAtPrice": {
+              "amount": "890.00",
+              "currencyCode": "PHP"
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "var-collegiate-heritage-heavyweight-tee-heather-grey-2xl",
+            "title": "Heather Grey / 2XL",
+            "availableForSale": true,
+            "selectedOptions": [
+              {
+                "name": "Color",
+                "value": "Heather Grey"
+              },
+              {
+                "name": "Size",
+                "value": "2XL"
+              }
+            ],
+            "price": {
+              "amount": "750.00",
+              "currencyCode": "PHP"
+            },
+            "compareAtPrice": {
+              "amount": "890.00",
+              "currencyCode": "PHP"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "prod-flagship-hoodie-1",
+    "handle": "collegiate-signature-fleece-pullover",
+    "title": "Collegiate Signature 450GSM Ultra-Heavy Fleece Pullover",
+    "description": "Ultra-heavyweight 450 GSM brushed fleece pullover sweatshirt with double-layered hood, kangaroo pocket, and tonal collegiate embroidery.",
+    "descriptionHtml": "<p>Ultra-heavyweight 450 GSM brushed fleece pullover sweatshirt with double-layered hood, kangaroo pocket, and tonal collegiate embroidery.</p>",
+    "availableForSale": true,
+    "vendor": "COLLEGIATE MERCH",
+    "tags": [
+      "Hoodie",
+      "Collegiate",
+      "Featured"
+    ],
+    "featuredImage": {
+      "url": "",
+      "altText": "Collegiate Signature 450GSM Ultra-Heavy Fleece Pullover"
+    },
+    "images": {
+      "edges": []
+    },
+    "priceRange": {
+      "minVariantPrice": {
+        "amount": "1650.00",
+        "currencyCode": "PHP"
+      },
+      "maxVariantPrice": {
+        "amount": "1650.00",
+        "currencyCode": "PHP"
+      }
+    },
+    "compareAtPriceRange": {
+      "minVariantPrice": {
+        "amount": "1950.00",
+        "currencyCode": "PHP"
+      },
+      "maxVariantPrice": {
+        "amount": "1950.00",
+        "currencyCode": "PHP"
+      }
+    },
+    "options": [
+      {
+        "id": "opt-collegiate-signature-fleece-pullover-color",
+        "name": "Color",
+        "values": [
+          "Charcoal Black",
+          "Bone Off-White",
+          "Slate Grey"
+        ]
+      },
+      {
+        "id": "opt-collegiate-signature-fleece-pullover-size",
+        "name": "Size",
+        "values": [
+          "S",
+          "M",
+          "L",
+          "XL",
+          "2XL"
+        ]
+      }
+    ],
+    "variants": {
+      "edges": [
+        {
+          "node": {
+            "id": "var-collegiate-signature-fleece-pullover-charcoal-black-s",
+            "title": "Charcoal Black / S",
+            "availableForSale": true,
+            "selectedOptions": [
+              {
+                "name": "Color",
+                "value": "Charcoal Black"
+              },
+              {
+                "name": "Size",
+                "value": "S"
+              }
+            ],
+            "price": {
+              "amount": "1650.00",
+              "currencyCode": "PHP"
+            },
+            "compareAtPrice": {
+              "amount": "1950.00",
+              "currencyCode": "PHP"
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "var-collegiate-signature-fleece-pullover-charcoal-black-m",
+            "title": "Charcoal Black / M",
+            "availableForSale": true,
+            "selectedOptions": [
+              {
+                "name": "Color",
+                "value": "Charcoal Black"
+              },
+              {
+                "name": "Size",
+                "value": "M"
+              }
+            ],
+            "price": {
+              "amount": "1650.00",
+              "currencyCode": "PHP"
+            },
+            "compareAtPrice": {
+              "amount": "1950.00",
+              "currencyCode": "PHP"
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "var-collegiate-signature-fleece-pullover-charcoal-black-l",
+            "title": "Charcoal Black / L",
+            "availableForSale": true,
+            "selectedOptions": [
+              {
+                "name": "Color",
+                "value": "Charcoal Black"
+              },
+              {
+                "name": "Size",
+                "value": "L"
+              }
+            ],
+            "price": {
+              "amount": "1650.00",
+              "currencyCode": "PHP"
+            },
+            "compareAtPrice": {
+              "amount": "1950.00",
+              "currencyCode": "PHP"
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "var-collegiate-signature-fleece-pullover-charcoal-black-xl",
+            "title": "Charcoal Black / XL",
+            "availableForSale": true,
+            "selectedOptions": [
+              {
+                "name": "Color",
+                "value": "Charcoal Black"
+              },
+              {
+                "name": "Size",
+                "value": "XL"
+              }
+            ],
+            "price": {
+              "amount": "1650.00",
+              "currencyCode": "PHP"
+            },
+            "compareAtPrice": {
+              "amount": "1950.00",
+              "currencyCode": "PHP"
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "var-collegiate-signature-fleece-pullover-charcoal-black-2xl",
+            "title": "Charcoal Black / 2XL",
+            "availableForSale": true,
+            "selectedOptions": [
+              {
+                "name": "Color",
+                "value": "Charcoal Black"
+              },
+              {
+                "name": "Size",
+                "value": "2XL"
+              }
+            ],
+            "price": {
+              "amount": "1650.00",
+              "currencyCode": "PHP"
+            },
+            "compareAtPrice": {
+              "amount": "1950.00",
+              "currencyCode": "PHP"
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "var-collegiate-signature-fleece-pullover-bone-off-white-s",
+            "title": "Bone Off-White / S",
+            "availableForSale": true,
+            "selectedOptions": [
+              {
+                "name": "Color",
+                "value": "Bone Off-White"
+              },
+              {
+                "name": "Size",
+                "value": "S"
+              }
+            ],
+            "price": {
+              "amount": "1650.00",
+              "currencyCode": "PHP"
+            },
+            "compareAtPrice": {
+              "amount": "1950.00",
+              "currencyCode": "PHP"
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "var-collegiate-signature-fleece-pullover-bone-off-white-m",
+            "title": "Bone Off-White / M",
+            "availableForSale": true,
+            "selectedOptions": [
+              {
+                "name": "Color",
+                "value": "Bone Off-White"
+              },
+              {
+                "name": "Size",
+                "value": "M"
+              }
+            ],
+            "price": {
+              "amount": "1650.00",
+              "currencyCode": "PHP"
+            },
+            "compareAtPrice": {
+              "amount": "1950.00",
+              "currencyCode": "PHP"
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "var-collegiate-signature-fleece-pullover-bone-off-white-l",
+            "title": "Bone Off-White / L",
+            "availableForSale": true,
+            "selectedOptions": [
+              {
+                "name": "Color",
+                "value": "Bone Off-White"
+              },
+              {
+                "name": "Size",
+                "value": "L"
+              }
+            ],
+            "price": {
+              "amount": "1650.00",
+              "currencyCode": "PHP"
+            },
+            "compareAtPrice": {
+              "amount": "1950.00",
+              "currencyCode": "PHP"
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "var-collegiate-signature-fleece-pullover-bone-off-white-xl",
+            "title": "Bone Off-White / XL",
+            "availableForSale": true,
+            "selectedOptions": [
+              {
+                "name": "Color",
+                "value": "Bone Off-White"
+              },
+              {
+                "name": "Size",
+                "value": "XL"
+              }
+            ],
+            "price": {
+              "amount": "1650.00",
+              "currencyCode": "PHP"
+            },
+            "compareAtPrice": {
+              "amount": "1950.00",
+              "currencyCode": "PHP"
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "var-collegiate-signature-fleece-pullover-bone-off-white-2xl",
+            "title": "Bone Off-White / 2XL",
+            "availableForSale": true,
+            "selectedOptions": [
+              {
+                "name": "Color",
+                "value": "Bone Off-White"
+              },
+              {
+                "name": "Size",
+                "value": "2XL"
+              }
+            ],
+            "price": {
+              "amount": "1650.00",
+              "currencyCode": "PHP"
+            },
+            "compareAtPrice": {
+              "amount": "1950.00",
+              "currencyCode": "PHP"
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "var-collegiate-signature-fleece-pullover-slate-grey-s",
+            "title": "Slate Grey / S",
+            "availableForSale": true,
+            "selectedOptions": [
+              {
+                "name": "Color",
+                "value": "Slate Grey"
+              },
+              {
+                "name": "Size",
+                "value": "S"
+              }
+            ],
+            "price": {
+              "amount": "1650.00",
+              "currencyCode": "PHP"
+            },
+            "compareAtPrice": {
+              "amount": "1950.00",
+              "currencyCode": "PHP"
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "var-collegiate-signature-fleece-pullover-slate-grey-m",
+            "title": "Slate Grey / M",
+            "availableForSale": true,
+            "selectedOptions": [
+              {
+                "name": "Color",
+                "value": "Slate Grey"
+              },
+              {
+                "name": "Size",
+                "value": "M"
+              }
+            ],
+            "price": {
+              "amount": "1650.00",
+              "currencyCode": "PHP"
+            },
+            "compareAtPrice": {
+              "amount": "1950.00",
+              "currencyCode": "PHP"
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "var-collegiate-signature-fleece-pullover-slate-grey-l",
+            "title": "Slate Grey / L",
+            "availableForSale": true,
+            "selectedOptions": [
+              {
+                "name": "Color",
+                "value": "Slate Grey"
+              },
+              {
+                "name": "Size",
+                "value": "L"
+              }
+            ],
+            "price": {
+              "amount": "1650.00",
+              "currencyCode": "PHP"
+            },
+            "compareAtPrice": {
+              "amount": "1950.00",
+              "currencyCode": "PHP"
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "var-collegiate-signature-fleece-pullover-slate-grey-xl",
+            "title": "Slate Grey / XL",
+            "availableForSale": true,
+            "selectedOptions": [
+              {
+                "name": "Color",
+                "value": "Slate Grey"
+              },
+              {
+                "name": "Size",
+                "value": "XL"
+              }
+            ],
+            "price": {
+              "amount": "1650.00",
+              "currencyCode": "PHP"
+            },
+            "compareAtPrice": {
+              "amount": "1950.00",
+              "currencyCode": "PHP"
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "var-collegiate-signature-fleece-pullover-slate-grey-2xl",
+            "title": "Slate Grey / 2XL",
+            "availableForSale": true,
+            "selectedOptions": [
+              {
+                "name": "Color",
+                "value": "Slate Grey"
+              },
+              {
+                "name": "Size",
+                "value": "2XL"
+              }
+            ],
+            "price": {
+              "amount": "1650.00",
+              "currencyCode": "PHP"
+            },
+            "compareAtPrice": {
+              "amount": "1950.00",
+              "currencyCode": "PHP"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "prod-flagship-cap-1",
+    "handle": "collegiate-classic-twotone-snapback",
+    "title": "Collegiate Classic Two-Tone 6-Panel Wool Snapback",
+    "description": "Structured 6-panel wool blend cap featuring high-density 3D raised embroidery, green underbrim, and adjustable brass closure.",
+    "descriptionHtml": "<p>Structured 6-panel wool blend cap featuring high-density 3D raised embroidery, green underbrim, and adjustable brass closure.</p>",
+    "availableForSale": true,
+    "vendor": "COLLEGIATE MERCH",
+    "tags": [
+      "Cap",
+      "Collegiate",
+      "Featured"
+    ],
+    "featuredImage": {
+      "url": "",
+      "altText": "Collegiate Classic Two-Tone 6-Panel Wool Snapback"
+    },
+    "images": {
+      "edges": []
+    },
+    "priceRange": {
+      "minVariantPrice": {
+        "amount": "650.00",
+        "currencyCode": "PHP"
+      },
+      "maxVariantPrice": {
+        "amount": "650.00",
+        "currencyCode": "PHP"
+      }
+    },
+    "compareAtPriceRange": {
+      "minVariantPrice": {
+        "amount": "790.00",
+        "currencyCode": "PHP"
+      },
+      "maxVariantPrice": {
+        "amount": "790.00",
+        "currencyCode": "PHP"
+      }
+    },
+    "options": [
+      {
+        "id": "opt-collegiate-classic-twotone-snapback-color",
+        "name": "Color",
+        "values": [
+          "Black / Cream",
+          "Navy / Grey",
+          "Monochrome"
+        ]
+      },
+      {
+        "id": "opt-collegiate-classic-twotone-snapback-size",
+        "name": "Size",
+        "values": [
+          "One Size (Adjustable)"
+        ]
+      }
+    ],
+    "variants": {
+      "edges": [
+        {
+          "node": {
+            "id": "var-collegiate-classic-twotone-snapback-black---cream-one-size-(adjustable)",
+            "title": "Black / Cream / One Size (Adjustable)",
+            "availableForSale": true,
+            "selectedOptions": [
+              {
+                "name": "Color",
+                "value": "Black / Cream"
+              },
+              {
+                "name": "Size",
+                "value": "One Size (Adjustable)"
+              }
+            ],
+            "price": {
+              "amount": "650.00",
+              "currencyCode": "PHP"
+            },
+            "compareAtPrice": {
+              "amount": "790.00",
+              "currencyCode": "PHP"
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "var-collegiate-classic-twotone-snapback-navy---grey-one-size-(adjustable)",
+            "title": "Navy / Grey / One Size (Adjustable)",
+            "availableForSale": true,
+            "selectedOptions": [
+              {
+                "name": "Color",
+                "value": "Navy / Grey"
+              },
+              {
+                "name": "Size",
+                "value": "One Size (Adjustable)"
+              }
+            ],
+            "price": {
+              "amount": "650.00",
+              "currencyCode": "PHP"
+            },
+            "compareAtPrice": {
+              "amount": "790.00",
+              "currencyCode": "PHP"
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "var-collegiate-classic-twotone-snapback-monochrome-one-size-(adjustable)",
+            "title": "Monochrome / One Size (Adjustable)",
+            "availableForSale": true,
+            "selectedOptions": [
+              {
+                "name": "Color",
+                "value": "Monochrome"
+              },
+              {
+                "name": "Size",
+                "value": "One Size (Adjustable)"
+              }
+            ],
+            "price": {
+              "amount": "650.00",
+              "currencyCode": "PHP"
+            },
+            "compareAtPrice": {
+              "amount": "790.00",
+              "currencyCode": "PHP"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "prod-flagship-jersey-1",
+    "handle": "collegiate-allstar-athletic-tank",
+    "title": "Collegiate All-Star Dual-Mesh Varsity Athletic Jersey",
+    "description": "Professional-grade breathable dual-mesh basketball jersey with contrast ribbed trim and stitched collegiate numerals.",
+    "descriptionHtml": "<p>Professional-grade breathable dual-mesh basketball jersey with contrast ribbed trim and stitched collegiate numerals.</p>",
+    "availableForSale": true,
+    "vendor": "COLLEGIATE MERCH",
+    "tags": [
+      "Jersey",
+      "Collegiate",
+      "Featured"
+    ],
+    "featuredImage": {
+      "url": "",
+      "altText": "Collegiate All-Star Dual-Mesh Varsity Athletic Jersey"
+    },
+    "images": {
+      "edges": []
+    },
+    "priceRange": {
+      "minVariantPrice": {
+        "amount": "1150.00",
+        "currencyCode": "PHP"
+      },
+      "maxVariantPrice": {
+        "amount": "1150.00",
+        "currencyCode": "PHP"
+      }
+    },
+    "compareAtPriceRange": {
+      "minVariantPrice": {
+        "amount": "1350.00",
+        "currencyCode": "PHP"
+      },
+      "maxVariantPrice": {
+        "amount": "1350.00",
+        "currencyCode": "PHP"
+      }
+    },
+    "options": [
+      {
+        "id": "opt-collegiate-allstar-athletic-tank-color",
+        "name": "Color",
+        "values": [
+          "Black / White",
+          "White / Black"
+        ]
+      },
+      {
+        "id": "opt-collegiate-allstar-athletic-tank-size",
+        "name": "Size",
+        "values": [
+          "S",
+          "M",
+          "L",
+          "XL",
+          "2XL"
+        ]
+      }
+    ],
+    "variants": {
+      "edges": [
+        {
+          "node": {
+            "id": "var-collegiate-allstar-athletic-tank-black---white-s",
+            "title": "Black / White / S",
+            "availableForSale": true,
+            "selectedOptions": [
+              {
+                "name": "Color",
+                "value": "Black / White"
+              },
+              {
+                "name": "Size",
+                "value": "S"
+              }
+            ],
+            "price": {
+              "amount": "1150.00",
+              "currencyCode": "PHP"
+            },
+            "compareAtPrice": {
+              "amount": "1350.00",
+              "currencyCode": "PHP"
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "var-collegiate-allstar-athletic-tank-black---white-m",
+            "title": "Black / White / M",
+            "availableForSale": true,
+            "selectedOptions": [
+              {
+                "name": "Color",
+                "value": "Black / White"
+              },
+              {
+                "name": "Size",
+                "value": "M"
+              }
+            ],
+            "price": {
+              "amount": "1150.00",
+              "currencyCode": "PHP"
+            },
+            "compareAtPrice": {
+              "amount": "1350.00",
+              "currencyCode": "PHP"
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "var-collegiate-allstar-athletic-tank-black---white-l",
+            "title": "Black / White / L",
+            "availableForSale": true,
+            "selectedOptions": [
+              {
+                "name": "Color",
+                "value": "Black / White"
+              },
+              {
+                "name": "Size",
+                "value": "L"
+              }
+            ],
+            "price": {
+              "amount": "1150.00",
+              "currencyCode": "PHP"
+            },
+            "compareAtPrice": {
+              "amount": "1350.00",
+              "currencyCode": "PHP"
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "var-collegiate-allstar-athletic-tank-black---white-xl",
+            "title": "Black / White / XL",
+            "availableForSale": true,
+            "selectedOptions": [
+              {
+                "name": "Color",
+                "value": "Black / White"
+              },
+              {
+                "name": "Size",
+                "value": "XL"
+              }
+            ],
+            "price": {
+              "amount": "1150.00",
+              "currencyCode": "PHP"
+            },
+            "compareAtPrice": {
+              "amount": "1350.00",
+              "currencyCode": "PHP"
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "var-collegiate-allstar-athletic-tank-black---white-2xl",
+            "title": "Black / White / 2XL",
+            "availableForSale": true,
+            "selectedOptions": [
+              {
+                "name": "Color",
+                "value": "Black / White"
+              },
+              {
+                "name": "Size",
+                "value": "2XL"
+              }
+            ],
+            "price": {
+              "amount": "1150.00",
+              "currencyCode": "PHP"
+            },
+            "compareAtPrice": {
+              "amount": "1350.00",
+              "currencyCode": "PHP"
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "var-collegiate-allstar-athletic-tank-white---black-s",
+            "title": "White / Black / S",
+            "availableForSale": true,
+            "selectedOptions": [
+              {
+                "name": "Color",
+                "value": "White / Black"
+              },
+              {
+                "name": "Size",
+                "value": "S"
+              }
+            ],
+            "price": {
+              "amount": "1150.00",
+              "currencyCode": "PHP"
+            },
+            "compareAtPrice": {
+              "amount": "1350.00",
+              "currencyCode": "PHP"
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "var-collegiate-allstar-athletic-tank-white---black-m",
+            "title": "White / Black / M",
+            "availableForSale": true,
+            "selectedOptions": [
+              {
+                "name": "Color",
+                "value": "White / Black"
+              },
+              {
+                "name": "Size",
+                "value": "M"
+              }
+            ],
+            "price": {
+              "amount": "1150.00",
+              "currencyCode": "PHP"
+            },
+            "compareAtPrice": {
+              "amount": "1350.00",
+              "currencyCode": "PHP"
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "var-collegiate-allstar-athletic-tank-white---black-l",
+            "title": "White / Black / L",
+            "availableForSale": true,
+            "selectedOptions": [
+              {
+                "name": "Color",
+                "value": "White / Black"
+              },
+              {
+                "name": "Size",
+                "value": "L"
+              }
+            ],
+            "price": {
+              "amount": "1150.00",
+              "currencyCode": "PHP"
+            },
+            "compareAtPrice": {
+              "amount": "1350.00",
+              "currencyCode": "PHP"
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "var-collegiate-allstar-athletic-tank-white---black-xl",
+            "title": "White / Black / XL",
+            "availableForSale": true,
+            "selectedOptions": [
+              {
+                "name": "Color",
+                "value": "White / Black"
+              },
+              {
+                "name": "Size",
+                "value": "XL"
+              }
+            ],
+            "price": {
+              "amount": "1150.00",
+              "currencyCode": "PHP"
+            },
+            "compareAtPrice": {
+              "amount": "1350.00",
+              "currencyCode": "PHP"
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "var-collegiate-allstar-athletic-tank-white---black-2xl",
+            "title": "White / Black / 2XL",
+            "availableForSale": true,
+            "selectedOptions": [
+              {
+                "name": "Color",
+                "value": "White / Black"
+              },
+              {
+                "name": "Size",
+                "value": "2XL"
+              }
+            ],
+            "price": {
+              "amount": "1150.00",
+              "currencyCode": "PHP"
+            },
+            "compareAtPrice": {
+              "amount": "1350.00",
+              "currencyCode": "PHP"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "prod-flagship-lanyard-1",
+    "handle": "collegiate-pro-quickrelease-lanyard",
+    "title": "Collegiate Pro Quick-Release Detachable ID Lanyard",
+    "description": "Industrial-grade satin weave key and badge lanyard with detachable buckle, heavy alloy clip, and safety breakaway clasp.",
+    "descriptionHtml": "<p>Industrial-grade satin weave key and badge lanyard with detachable buckle, heavy alloy clip, and safety breakaway clasp.</p>",
+    "availableForSale": true,
+    "vendor": "COLLEGIATE MERCH",
+    "tags": [
+      "Lanyard",
+      "Collegiate",
+      "Featured"
+    ],
+    "featuredImage": {
+      "url": "",
+      "altText": "Collegiate Pro Quick-Release Detachable ID Lanyard"
+    },
+    "images": {
+      "edges": []
+    },
+    "priceRange": {
+      "minVariantPrice": {
+        "amount": "290.00",
+        "currencyCode": "PHP"
+      },
+      "maxVariantPrice": {
+        "amount": "290.00",
+        "currencyCode": "PHP"
+      }
+    },
+    "compareAtPriceRange": {
+      "minVariantPrice": {
+        "amount": "350.00",
+        "currencyCode": "PHP"
+      },
+      "maxVariantPrice": {
+        "amount": "350.00",
+        "currencyCode": "PHP"
+      }
+    },
+    "options": [
+      {
+        "id": "opt-collegiate-pro-quickrelease-lanyard-color",
+        "name": "Color",
+        "values": [
+          "Matte Black",
+          "Monochrome Silver"
+        ]
+      },
+      {
+        "id": "opt-collegiate-pro-quickrelease-lanyard-size",
+        "name": "Size",
+        "values": [
+          "Standard"
+        ]
+      }
+    ],
+    "variants": {
+      "edges": [
+        {
+          "node": {
+            "id": "var-collegiate-pro-quickrelease-lanyard-matte-black-standard",
+            "title": "Matte Black / Standard",
+            "availableForSale": true,
+            "selectedOptions": [
+              {
+                "name": "Color",
+                "value": "Matte Black"
+              },
+              {
+                "name": "Size",
+                "value": "Standard"
+              }
+            ],
+            "price": {
+              "amount": "290.00",
+              "currencyCode": "PHP"
+            },
+            "compareAtPrice": {
+              "amount": "350.00",
+              "currencyCode": "PHP"
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "var-collegiate-pro-quickrelease-lanyard-monochrome-silver-standard",
+            "title": "Monochrome Silver / Standard",
+            "availableForSale": true,
+            "selectedOptions": [
+              {
+                "name": "Color",
+                "value": "Monochrome Silver"
+              },
+              {
+                "name": "Size",
+                "value": "Standard"
+              }
+            ],
+            "price": {
+              "amount": "290.00",
+              "currencyCode": "PHP"
+            },
+            "compareAtPrice": {
+              "amount": "350.00",
+              "currencyCode": "PHP"
+            }
+          }
+        }
+      ]
+    }
   }
 ];

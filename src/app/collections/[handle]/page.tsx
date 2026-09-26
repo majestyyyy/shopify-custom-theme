@@ -1,14 +1,28 @@
 import React from "react";
 import { Metadata } from "next";
 import { getCollectionProducts, getProducts, getCollections } from "@/lib/shopify/client";
+import { UNIVERSITY_COLLECTIONS } from "@/lib/shopify/mock-data";
 import ProductGrid from "@/components/product/ProductGrid";
 
-export const revalidate = 60;
+export const dynamicParams = false;
 
 export async function generateStaticParams() {
-  const collections = await getCollections(50);
-  return collections.map((collection) => ({
-    handle: collection.handle,
+  const collections = await getCollections(100);
+  const handles = new Set<string>();
+
+  collections.forEach((c) => {
+    if (c.handle) handles.add(c.handle.toLowerCase());
+  });
+
+  UNIVERSITY_COLLECTIONS.forEach((c) => {
+    if (c.handle) handles.add(c.handle.toLowerCase());
+  });
+
+  const aliases = ["shirt", "hoodie", "cap", "jersey", "lanyard", "tshirts", "sweatshirts", "accessories", "jerseys-athletic"];
+  aliases.forEach((a) => handles.add(a));
+
+  return Array.from(handles).map((handle) => ({
+    handle,
   }));
 }
 
