@@ -186,63 +186,241 @@ export async function getCollectionProducts(handle: string, first: number = 20):
   };
 }
 
+// In-Memory / Local Mock Cart Store for Mock Products
+let mockCartStore: Cart = {
+  id: "mock-cart-id",
+  checkoutUrl: "https://printingavenueph.myshopify.com/checkout",
+  totalQuantity: 0,
+  lines: { edges: [] },
+  cost: {
+    subtotalAmount: { amount: "0.00", currencyCode: "PHP" },
+    totalAmount: { amount: "0.00", currencyCode: "PHP" },
+    totalTaxAmount: null,
+  },
+};
+
+function recalculateMockCart(cart: Cart): Cart {
+  let totalQty = 0;
+  let subtotal = 0;
+  cart.lines.edges.forEach(({ node }) => {
+    totalQty += node.quantity;
+    const priceNum = parseFloat(node.merchandise.price.amount) || 0;
+    const lineTotal = (priceNum * node.quantity).toFixed(2);
+    node.cost.totalAmount.amount = lineTotal;
+    subtotal += priceNum * node.quantity;
+  });
+  cart.totalQuantity = totalQty;
+  cart.cost.subtotalAmount.amount = subtotal.toFixed(2);
+  cart.cost.totalAmount.amount = subtotal.toFixed(2);
+  return { ...cart };
+}
+
+function findMockProductAndVariant(variantId: string) {
+  for (const product of UNIVERSITY_PRODUCTS) {
+    const variantEdge = product.variants.edges.find((v) => v.node.id === variantId);
+    if (variantEdge) {
+      return { product, variant: variantEdge.node };
+    }
+  }
+  return null;
+}
+
 // Cart Mutations Client Helpers
 export async function createCart(lines?: Array<{ merchandiseId: string; quantity: number }>): Promise<Cart | null> {
-  const data = await shopifyFetch<{
-    cartCreate: { cart: Cart; userErrors: Array<{ message: string }> };
-  }>({
-    query: CREATE_CART_MUTATION,
-    variables: {
-      input: lines ? { lines } : {},
-    },
-    cache: 'no-store',
-  });
+  const isMockDomain = domain === 'mock.shop' || !domain || !storefrontAccessToken;
 
-  return data?.cartCreate?.cart || null;
+  // If first item is a mock item (e.g. starts with "var-") or mock domain, use mock cart
+  const hasMockItem = lines?.some((l) => l.merchandiseId.startsWith("var-") || l.merchandiseId.startsWith("prod-"));
+
+  if (!isMockDomain && !hasMockItem) {
+    const data = await shopifyFetch<{
+      cartCreate: { cart: Cart; userErrors: Array<{ message: string }> };
+    }>({
+      query: CREATE_CART_MUTATION,
+      variables: {
+        input: lines ? { lines } : {},
+      },
+      cache: 'no-store',
+    });
+
+    if (data?.cartCreate?.cart) {
+      return data.cartCreate.cart;
+    }
+  }
+
+  // Fallback / Mock Cart Creation
+  mockCartStore = {
+    id: `cart-${Date.now()}`,
+    checkoutUrl: `https://${domain || "printingavenueph.myshopify.com"}/checkout`,
+    totalQuantity: 0,
+    lines: { edges: [] },
+    cost: {
+      subtotalAmount: { amount: "0.00", currencyCode: "PHP" },
+      totalAmount: { amount: "0.00", currencyCode: "PHP" },
+      totalTaxAmount: null,
+    },
+  };
+
+  if (lines && lines.length > 0) {
+    for (const item of lines) {
+      const match = findMockProductAndVariant(item.merchandiseId);
+      if (match) {
+        mockCartStore.lines.edges.push({
+          node: {
+            id: `line-${Date.now()}-${Math.random().toString(36).slice(2, 7)}`,
+            quantity: item.quantity,
+            cost: {
+              totalAmount: {
+                amount: (parseFloat(match.variant.price.amount) * item.quantity).toFixed(2),
+                currencyCode: match.variant.price.currencyCode || "PHP",
+              },
+            },
+            merchandise: {
+              id: match.variant.id,
+              title: match.variant.title,
+              selectedOptions: match.variant.selectedOptions,
+              image: match.variant.image || match.product.featuredImage,
+              product: {
+                id: match.product.id,
+                handle: match.product.handle,
+                title: match.product.title,
+                featuredImage: match.product.featuredImage,
+              },
+              price: match.variant.price,
+            },
+          },
+        });
+      }
+    }
+  }
+
+  return recalculateMockCart(mockCartStore);
 }
 
 export async function addToCart(cartId: string, lines: Array<{ merchandiseId: string; quantity: number }>): Promise<Cart | null> {
-  const data = await shopifyFetch<{
-    cartLinesAdd: { cart: Cart; userErrors: Array<{ message: string }> };
-  }>({
-    query: ADD_TO_CART_MUTATION,
-    variables: { cartId, lines },
-    cache: 'no-store',
-  });
+  const isMockCart = cartId.startsWith("cart-") || lines.some((l) => l.merchandiseId.startsWith("var-"));
 
-  return data?.cartLinesAdd?.cart || null;
+  if (!isMockCart) {
+    const data = await shopifyFetch<{
+      cartLinesAdd: { cart: Cart; userErrors: Array<{ message: string }> };
+    }>({
+      query: ADD_TO_CART_MUTATION,
+      variables: { cartId, lines },
+      cache: 'no-store',
+    });
+
+    if (data?.cartLinesAdd?.cart) {
+      return data.cartLinesAdd.cart;
+    }
+  }
+
+  // Fallback / Mock Cart Addition
+  for (const item of lines) {
+    const existingIndex = mockCartStore.lines.edges.findIndex(
+      (e) => e.node.merchandise.id === item.merchandiseId
+    );
+
+    if (existingIndex > -1) {
+      mockCartStore.lines.edges[existingIndex].node.quantity += item.quantity;
+    } else {
+      const match = findMockProductAndVariant(item.merchandiseId);
+      if (match) {
+        mockCartStore.lines.edges.push({
+          node: {
+            id: `line-${Date.now()}-${Math.random().toString(36).slice(2, 7)}`,
+            quantity: item.quantity,
+            cost: {
+              totalAmount: {
+                amount: (parseFloat(match.variant.price.amount) * item.quantity).toFixed(2),
+                currencyCode: match.variant.price.currencyCode || "PHP",
+              },
+            },
+            merchandise: {
+              id: match.variant.id,
+              title: match.variant.title,
+              selectedOptions: match.variant.selectedOptions,
+              image: match.variant.image || match.product.featuredImage,
+              product: {
+                id: match.product.id,
+                handle: match.product.handle,
+                title: match.product.title,
+                featuredImage: match.product.featuredImage,
+              },
+              price: match.variant.price,
+            },
+          },
+        });
+      }
+    }
+  }
+
+  return recalculateMockCart(mockCartStore);
 }
 
 export async function updateCartLines(cartId: string, lines: Array<{ id: string; quantity: number }>): Promise<Cart | null> {
-  const data = await shopifyFetch<{
-    cartLinesUpdate: { cart: Cart; userErrors: Array<{ message: string }> };
-  }>({
-    query: UPDATE_CART_LINES_MUTATION,
-    variables: { cartId, lines },
-    cache: 'no-store',
+  const isMockCart = cartId.startsWith("cart-");
+
+  if (!isMockCart) {
+    const data = await shopifyFetch<{
+      cartLinesUpdate: { cart: Cart; userErrors: Array<{ message: string }> };
+    }>({
+      query: UPDATE_CART_LINES_MUTATION,
+      variables: { cartId, lines },
+      cache: 'no-store',
+    });
+
+    if (data?.cartLinesUpdate?.cart) {
+      return data.cartLinesUpdate.cart;
+    }
+  }
+
+  // Fallback / Mock Cart Quantity Update
+  lines.forEach((update) => {
+    const edge = mockCartStore.lines.edges.find((e) => e.node.id === update.id);
+    if (edge) {
+      edge.node.quantity = update.quantity;
+    }
   });
 
-  return data?.cartLinesUpdate?.cart || null;
+  return recalculateMockCart(mockCartStore);
 }
 
 export async function removeCartLines(cartId: string, lineIds: string[]): Promise<Cart | null> {
-  const data = await shopifyFetch<{
-    cartLinesRemove: { cart: Cart; userErrors: Array<{ message: string }> };
-  }>({
-    query: REMOVE_CART_LINES_MUTATION,
-    variables: { cartId, lineIds },
-    cache: 'no-store',
-  });
+  const isMockCart = cartId.startsWith("cart-");
 
-  return data?.cartLinesRemove?.cart || null;
+  if (!isMockCart) {
+    const data = await shopifyFetch<{
+      cartLinesRemove: { cart: Cart; userErrors: Array<{ message: string }> };
+    }>({
+      query: REMOVE_CART_LINES_MUTATION,
+      variables: { cartId, lineIds },
+      cache: 'no-store',
+    });
+
+    if (data?.cartLinesRemove?.cart) {
+      return data.cartLinesRemove.cart;
+    }
+  }
+
+  // Fallback / Mock Cart Item Removal
+  mockCartStore.lines.edges = mockCartStore.lines.edges.filter((e) => !lineIds.includes(e.node.id));
+  return recalculateMockCart(mockCartStore);
 }
 
 export async function getCart(cartId: string): Promise<Cart | null> {
-  const data = await shopifyFetch<{ cart: Cart | null }>({
-    query: GET_CART_QUERY,
-    variables: { cartId },
-    cache: 'no-store',
-  });
+  const isMockCart = cartId.startsWith("cart-");
 
-  return data?.cart || null;
+  if (!isMockCart) {
+    const data = await shopifyFetch<{ cart: Cart | null }>({
+      query: GET_CART_QUERY,
+      variables: { cartId },
+      cache: 'no-store',
+    });
+
+    if (data?.cart) {
+      return data.cart;
+    }
+  }
+
+  return recalculateMockCart(mockCartStore);
 }

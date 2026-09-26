@@ -7,6 +7,13 @@ import ProductGrid from "@/components/product/ProductGrid";
 
 export const revalidate = 60;
 
+export async function generateStaticParams() {
+  const products = await getProducts({ first: 100 });
+  return products.map((product) => ({
+    handle: product.handle,
+  }));
+}
+
 interface ProductPageProps {
   params: Promise<{
     handle: string;

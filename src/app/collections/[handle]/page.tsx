@@ -1,10 +1,16 @@
 import React from "react";
 import { Metadata } from "next";
-import { notFound } from "next/navigation";
-import { getCollectionProducts, getProducts } from "@/lib/shopify/client";
+import { getCollectionProducts, getProducts, getCollections } from "@/lib/shopify/client";
 import ProductGrid from "@/components/product/ProductGrid";
 
 export const revalidate = 60;
+
+export async function generateStaticParams() {
+  const collections = await getCollections(50);
+  return collections.map((collection) => ({
+    handle: collection.handle,
+  }));
+}
 
 interface CollectionPageProps {
   params: Promise<{

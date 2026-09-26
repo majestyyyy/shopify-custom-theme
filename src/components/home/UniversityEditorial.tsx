@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 import Link from "next/link";
 import { ArrowUpRight, GraduationCap } from "lucide-react";
 
@@ -111,14 +110,22 @@ export default function UniversityEditorial() {
               <div className="absolute inset-0 bg-gradient-to-b from-zinc-900 via-zinc-950 to-black pointer-events-none" />
               
               {/* Subtle Grid Lines & Architectural Lines */}
-              <div className="absolute inset-0 opacity-15 bg-[radial-gradient(#ffffff_1px,transparent_1px)] [background-size:16px_16px] group-hover:opacity-25 transition-opacity duration-500" />
+              <div className="absolute inset-0 opacity-15 bg-[radial-gradient(#ffffff_1px,transparent_1px)] [background-size:16px_16px] group-hover:opacity-25 transition-opacity duration-500 pointer-events-none" />
               
-              {/* Big Watermark Code in Background Center/Right */}
-              <div className="absolute right-[-10px] top-1/2 -translate-y-1/2 font-black text-[120px] leading-none text-white/[0.04] group-hover:text-white/[0.08] transition-colors duration-500 pointer-events-none tracking-tighter select-none">
-                {uni.code}
+              {/* Center Watermark & Monogram Placeholder */}
+              <div className="absolute inset-0 flex flex-col items-center justify-center pointer-events-none select-none">
+                <div className="flex h-16 w-16 items-center justify-center border border-zinc-800 bg-white/[0.03] text-zinc-500 mb-2 group-hover:border-zinc-700 group-hover:text-zinc-300 transition-colors">
+                  <GraduationCap className="h-8 w-8 stroke-[1.25]" />
+                </div>
+                <div className="font-black text-5xl sm:text-6xl tracking-tighter text-white/[0.12] group-hover:text-white/[0.22] transition-colors uppercase leading-none">
+                  {uni.code}
+                </div>
+                <span className="text-[9px] font-bold uppercase tracking-widest text-zinc-600 mt-1">
+                  COLLEGIATE LOOKBOOK
+                </span>
               </div>
 
-              {/* Top Row: Graduation Icon & Arrow Action */}
+              {/* Top Row: Graduation Icon Badge & Arrow Action */}
               <div className="relative z-10 flex items-center justify-between">
                 <span className="flex h-9 w-9 items-center justify-center rounded-none bg-white/5 border border-zinc-800 text-zinc-400 backdrop-blur-sm group-hover:text-white group-hover:border-zinc-600 transition">
                   <GraduationCap className="h-4 w-4" />
@@ -128,9 +135,7 @@ export default function UniversityEditorial() {
                   <ArrowUpRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
                 </span>
               </div>
-
-              {/* Lower Left Corner: University Name & Info */}
-              <div className="relative z-10 text-left space-y-1.5 mt-auto">
+              <div className="relative z-10 text-left space-y-1.5 mt-auto pt-8">
                 <div className="flex items-center gap-2">
                   <span className="inline-block text-[10px] font-bold uppercase tracking-widest text-zinc-400 border border-zinc-800 px-2 py-0.5 bg-zinc-900/80">
                     {uni.colors}
