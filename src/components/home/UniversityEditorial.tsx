@@ -124,17 +124,7 @@ export default function UniversityEditorial() {
                   COLLEGIATE LOOKBOOK
                 </span>
               </div>
-
-              {/* Top Row: Graduation Icon Badge & Arrow Action */}
-              <div className="relative z-10 flex items-center justify-between">
-                <span className="flex h-9 w-9 items-center justify-center rounded-none bg-white/5 border border-zinc-800 text-zinc-400 backdrop-blur-sm group-hover:text-white group-hover:border-zinc-600 transition">
-                  <GraduationCap className="h-4 w-4" />
-                </span>
-
-                <span className="flex h-9 w-9 items-center justify-center rounded-none bg-black/60 border border-zinc-700 text-white backdrop-blur-md transition-all duration-300 group-hover:bg-white group-hover:text-black group-hover:border-white group-hover:scale-105">
-                  <ArrowUpRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
-                </span>
-              </div>
+              
               <div className="relative z-10 text-left space-y-1.5 mt-auto pt-8">
                 <div className="flex items-center gap-2">
                   <span className="inline-block text-[10px] font-bold uppercase tracking-widest text-zinc-400 border border-zinc-800 px-2 py-0.5 bg-zinc-900/80">
